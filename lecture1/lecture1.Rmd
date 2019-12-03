@@ -1,0 +1,111 @@
+---
+title: "Lecture 1: Introduction"
+subtitle: <html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>
+author: '&#x130;lhan G&#252;ner | University of Kent' 
+date: "EC566: `r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: [default, rladies, metropolis-fonts] 
+    lib_dir: libs
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+library(knitr)
+opts_chunk$set(
+  fig.align="center", ##fig.width=6, fig.height=4.5, 
+  ## out.width="748px", ##out.length="520.75px",
+  dpi=300, ##fig.path='Figs/',
+  cache=T##, echo=F, warning=F, message=F
+  )
+```
+
+
+## EC566: Macroeconomics for Business
+
+<br>
+
+<br>
+
+- &#x130;lhan G&#252;ner
+
+- **Office**: Kennedy 119
+
+- **Consultation hours**: Mondays and Wednesdays 10-11am
+
+- **E-mail:** i.guner@kent.ac.uk
+
+---
+
+## Assessment
+
+- 20% Coursework
+
+ - 2 short essays (10% each)
+
+- 80% 2hr exam
+
+### Coursework essay submissions:
+
+- Week 19
+
+- Week 24
+
+---
+
+## Coursework Essay - Guidelines
+
+- 750 word limit – 10% allowance in excess of word limit is permitted
+
+- Structure: Brief introduction, main body, brief conclusion
+
+- Include a bibliography (does not count in word count)
+
+- For more information here is a good starting point:
+https://www.kent.ac.uk/learning/resources/studyguides/planningandwritingessays.pdf
+
+#### Assessment is electronic only:
+ - Submit via turnitin
+
+ - Try to avoid high similarity scores
+ 
+ - Use sensibly sized font (e.g.12pt)
+ 
+- Draw diagrams where relevant
+
+---
+
+## Coursework Essays - Topics 
+
+- The lists of essay topics will be available in Moodle
+
+- One essay to be chosen out of three topics in Week 19 
+
+ - List of topics is available immediately
+
+- One essay to be chosen out of three topics in Week 24
+
+ - List will be made available in week 19.
+
+- Start thinking and preparing early
+
+- Get consultation and guidance  - make use of our office hours
+
+---
+
+## Key factors for success:
+
+- Read the core texts: 
+
+ - In addition to core text, you may also use additional recommended text books
+
+- Read the Module Outline: 
+ - Contains key information on  lecture, seminars and essay topics for the Spring  term.
+
+- Read a good daily newspaper  - Financial Times & Economist
+
+- Prepare for seminars – Use them to test your understanding of the lecture
