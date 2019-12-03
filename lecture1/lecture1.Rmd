@@ -109,3 +109,33 @@ https://www.kent.ac.uk/learning/resources/studyguides/planningandwritingessays.p
 - Read a good daily newspaper  - Financial Times & Economist
 
 - Prepare for seminars – Use them to test your understanding of the lecture
+
+---
+
+<img src="./lecture1_files/figure-html/gdp_per_capita_time.svg" width="100%"/>
+
+---
+
+<img src="./lecture1_files/figure-html/gdp_per_capita_time_recent.svg" width="100%"/>
+
+
+---
+
+.pull-left[
+## Inequality
+
+]
+
+.pull-right[
+<img src="./lecture1_files/figure-html/Global-inequality-in-1800-1975-and-2015.png" width="70%"/>
+]
+
+---
+
+## Key Concepts
+
+- **Institutions:** laws and social customs governing the production and distribution of goods and services 
+
+- **Capitalism:** an economics system where the main institutios are private property, markets, and firms
+
+- 
