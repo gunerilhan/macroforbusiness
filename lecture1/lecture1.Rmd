@@ -163,7 +163,32 @@ Usually expressed in per-capita terms (as an average income).
 </center>
 
 ---
+## Business Cycles
 
+.pull-left[
+#### Trend
+<center>
+<img src="./lecture1_files/figure-html/UK-gdp-trend.svg" width="100%"/>
+</center>
+
+]
+
+.pull-right[
+#### Cycle
+<center>
+<img src="./lecture1_files/figure-html/UK-gdp-cycle.svg" width="85%"/>
+</center>
+
+]
+
+---
+## Peak and trough of a business cycle
+<center>
+<img src="./lecture1_files/figure-html/UK-gdp-trend_recession.svg" width="70%"/>
+</center>
+
+
+---
 .pull-left[
 ## Inequality
 
@@ -172,6 +197,7 @@ Usually expressed in per-capita terms (as an average income).
 .pull-right[
 <img src="./lecture1_files/figure-html/Global-inequality-in-1800-1975-and-2015.png" width="70%"/>
 ]
+
 
 
 ---
