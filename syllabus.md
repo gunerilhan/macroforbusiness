@@ -10,7 +10,7 @@
 - Fiscal policy – Unit 14 – Week 20 Lecture 1 and 2
 - Monetary policy – Unit 15 – Week 21 Lecture 1 and 2
 - Long-run economic performance – Unit 16 – Week 22 Lecture 1
- - Innovation, information, and the networked economy – Unit 21
+  - Innovation, information, and the networked economy – Unit 21
 - The nation and the world economy – Unit 18 – Week 22 Lecture 2
 - Markets, efficiency, and public policy – Unit 12 – Week 23 Lecture 1
  -  Economics of the environment – Unit 20
