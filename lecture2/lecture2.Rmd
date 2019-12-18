@@ -1,0 +1,245 @@
+---
+title: "Lecture 2: Firms and Employees"
+subtitle: <html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>
+author: '&#x130;lhan G&#252;ner | University of Kent' 
+date: "EC566 | Macroeconomics for Business "
+output:
+  xaringan::moon_reader:
+    css: [default, rladies, metropolis-fonts] 
+    lib_dir: libs
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+library(knitr)
+opts_chunk$set(
+  fig.align="center", ##fig.width=6, fig.height=4.5, 
+  ## out.width="748px", ##out.length="520.75px",
+  dpi=300, ##fig.path='Figs/',
+  cache=T##, echo=F, warning=F, message=F
+  )
+```
+
+## Employment Rents
+
+.pull-left[
+- Cost of loosing a job
+
+ - The difference between value of job and the next best option
+
+- Depends on  
+ - wage, medical benefits, ... 
+ - disutility of work (function of effort),
+ - unemployment benefits (if exists)
+ - duration of potential unemployment
+ - stigma of unemployment,
+ - other available employment opportunities  
+
+- Reservation wage = value of next best option
+
+- Employment rent = wage - reservation wage - distutility of effort
+]
+
+.pull-right[
+
+<center>
+<img src="./lecture2_files/figure-html/Slide4.JPG" width="100%"/>
+</center>
+
+Employment rent = $(12-2-6) \times 35 \times 44 = 6160$ 
+
+]
+---
+
+class: inverse, center, middle
+name: labor_discipline
+
+# Labor Discipline Model
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>
+
+---
+
+## Worker's best response
+
+.pull-left[
+- For a given wage offered, the optimal effort exerted by the workers
+
+- Say wage rate = $12
+ - Why would'nt a worker exert more effort than .5?
+ - Why would'nt a worker exert less effort than .5?
+ 
+- Feasible set: 
+
+ - Wage and effort pairs that a firm can get from its employees
+
+- Slope of the best response curve = MRT
+ - MRT stands for marginal rate of transformation
+]
+.pull-right[
+<center>
+<img src="./lecture2_files/figure-html/Slide5.JPG" width="100%"/>
+</center>
+]
+
+---
+
+## Shape of worker's best response
+
+.pull-left[
+- Effort at the reservation wage is 0
+
+- Effort is increasing in wage
+
+- Best response function is concave
+
+ - Firms need to increase wage rate more to induce more effort from workers if the initial wage is higher
+
+- For more detail read [Leibniz: The worker’s best response function](https://www.core-econ.org/the-economy/book/text/leibniz-06-06-01.html)
+
+Questions:
+
+- What happens to the best response curve if 
+
+ - unemployment duration increases,
+ 
+ - unemployment benefit decreases?
+]
+
+
+.pull-right[
+<center>
+<img src="./lecture2_files/figure-html/Slide5.JPG" width="100%"/>
+</center>
+]
+
+---
+## Firm's best response
+
+- A firm's goal is to maximize profits
+
+ - Maximize production
+ 
+ - Minimize cost
+ 
+- To maximize production, offer higher wages
+
+ - $\Uparrow$ wages $\Rightarrow$ $\Uparrow$ effort $\Rightarrow$ $\Uparrow$ production
+
+- To minimize cost, offer lower wages
+
+- Trade-off between wages and effort
+---
+## Isocost lines
+
+.pull-left[
+
+#### How to deal with the wage effort trade-off?
+
+- Minimize cost of effort (effort/wage)
+
+- Cost of effort is the same at all points on an isocost line
+
+
+]
+.pull-right[
+
+<br>
+
+<center>
+<img src="./lecture2_files/figure-html/figure-06-05-b.JPG" width="140%"/>
+</center>
+]
+
+---
+## Isocost lines
+
+.pull-left[
+
+#### How to deal with the wage effort trade-off?
+
+- Minimize cost of effort (effort/wage)
+
+- Cost of effort is the same at all points on an isocost line
+
+ 
+- Cost of effort goes down as the isocosts shifts up
+
+]
+.pull-right[
+
+<br>
+
+<center>
+<img src="./lecture2_files/figure-html/figure-06-05-c.JPG" width="140%"/>
+</center>
+]
+
+---
+## Isocost lines
+
+.pull-left[
+
+#### How to deal with the wage effort trade-off?
+
+- Minimize cost of effort (effort/wage)
+
+- Cost of effort is the same at all points on an isocost line
+
+- Cost of effort goes down as the isocosts shifts up
+
+- Slope of isocost curve is MRS
+
+ - MRS: marginal rate of substitution 
+ 
+
+]
+.pull-right[
+
+<br>
+
+<center>
+<img src="./lecture2_files/figure-html/figure-06-05-e.JPG" width="140%"/>
+</center>
+]
+
+---
+## Determination of wages
+
+.pull-left[
+- Profits are maximized at the steepest isocost line at the minimum feasible cost
+ 
+ - Equilibrium wage and effort is point A, where MRS = MRT
+
+- Efficiency wage: a wage rate greater than the reservation wage rate
+]
+.pull-right[
+<center>
+<img src="./lecture2_files/figure-html/Slide7.JPG" width="100%"/>
+</center>
+]
+
+---
+
+.pull-left[
+#### Trend
+]
+.pull-right[
+<br>
+<br>
+<center>
+<img src="./lecture2_files/figure-html/Slide8.JPG" width="100%"/>
+</center>
+]
+
+
+
+
+
+
+
+
