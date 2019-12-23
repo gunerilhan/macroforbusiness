@@ -237,9 +237,353 @@ Questions:
 ]
 
 
+---
+
+class: inverse, center, middle
+name: price_setting
+
+# Price Setting Firms
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>
+
+---
+
+## Firm decisions
+.pull-left[
+
+- What to produce
+
+- How to produce
+
+- Wages 
+
+- Advertising budget
+
+- R&D budget
+
+- _How much to produce_
+
+- _At what price to sell_
+
+- ...
+]
+
+.pull-right[
+<center>
+<img src="./lecture2_files/figure-html/new_yorker.jpg" width="120%"/>
+</center>
+Source: New Yorker
+
+]
+---
+## Pricing and production decisions
+
+- Relevant for firms selling differentiated products or firms with market power?
+
+ - More on this later
+ 
+ 
+- Depends on
+
+ - Cost structure
+
+ - Market demand
+ 
+- Analyze pricing and production decisions
+
+ 1. Represent cost structure as cost function
+ 
+ 2. Using cost function, draw isocost curves
+ 
+ 3. Repersent market demands as demand function
+ 
+ 4. Using isocost curves and market demand, find the profit maximizing price and output combination
+
+---
+## Cost Structure
+
+### Understanding economies of scale
+
+- Increasing returns to scale (Economies of scale):
+
+ - $xF(K,AL) < F(xK,xAL)$
+
+ - If inputs increase by a given proportion, output increases more than proportionally
+
+- Constant returns to scale:
+
+ - $xF(K,AL) = F(xK,xAL)$
+
+ - If inputs increase by a given proportion, output increases proportionally
+ 
+- Decreasing returns to scale (Diseconomies of scale):
+
+ - $xF(K,AL) > F(xK,xAL)$
+
+ - If inputs increase by a given proportion, output increases less than proportionally
+
+---
+## Economies of scale
 
 
+.pull-left[
+Potential causes
 
+- Fixed cost of production
+
+- Learning by doing
+
+- Greater bargaining power
+
+- Network effects
+
+
+## Diseconomies of scale
+
+Potential causes
+
+- Additional layer of bureaucracy
+
+- Harder to minotor employees
+
+- Necessity of other departments
+
+]
+
+.pull-right[
+<center>
+<img src="./lecture2_files/figure-html/new_yorker2.jpg" width="120%"/>
+</center>
+Source: New Yorker
+
+]
+
+---
+### Total cost of production and average cost of production
+
+.pull-left[
+- Total cost of production, $C(Q)$:
+
+ - total cost of producing $Q$ amount of output
+
+- Average cost of production = $C(Q)/Q$
+
+]
+
+.pull-right[
+
+<center>
+<img src="./lecture2_files/figure-html/figure-07-06-a.jpg" width="90%"/>
+</center>
+]
+
+---
+
+### Total cost of production and average cost of production
+
+.pull-left[
+- Total cost of production, $C(Q)$:
+
+ - total cost of producing $Q$ amount of output
+
+- Average cost of production = $C(Q)/Q$
+
+- $F:$ fixed cost of production
+
+]
+
+.pull-right[
+
+<center>
+<img src="./lecture2_files/figure-html/figure-07-06-b.jpg" width="90%"/>
+</center>
+]
+
+---
+
+### Total cost of production and average cost of production
+
+.pull-left[
+
+- Total cost of production, $C(Q)$:
+
+ - total cost of producing $Q$ amount of output
+
+- Average cost of production = $C(Q)/Q$
+
+- $F:$ fixed cost of production
+
+ - Leads to increasing returns to scale
+ 
+ - Average cost of production is decreasing when $Q$ is low (when $Q<40$ in our example graph)
+]
+
+.pull-right[
+
+<center>
+<img src="./lecture2_files/figure-html/figure-07-06-e.jpg" width="90%"/>
+</center>
+]
+
+
+---
+### Total cost of production and average cost of production
+
+.pull-left[
+- Total cost of production, $C(Q)$:
+
+ - total cost of producing $Q$ amount of output
+
+- Average cost of production = $C(Q)/Q$
+
+- $F:$ fixed cost of production
+
+ - Leads to increasing returns to scale
+ 
+ - Average cost of production is decreasing when $Q$ is low (when $Q<40$ in our example graph)
+
+- After certain amount of production, diseconomies of scale forces dominate, and average cost increases 
+]
+
+.pull-right[
+
+<center>
+<img src="./lecture2_files/figure-html/figure-07-06-g.jpg" width="90%"/>
+</center>
+]
+
+---
+## Marginal cost of production
+
+.pull-left[
+- Derivative of the total cost function, $MC\equiv\frac{dC(Q)}{dQ}=C'(Q)$
+ 
+- Slope of the total cost curve at a given point point
+
+- The effect on total cost of producing one more unit of output
+
+- In this example, $MC$ is increasing in $Q$
+
+- $AC$ is decreasing if $AC<MC$
+
+- $AC$ is incresing if $AC>MC$
+
+- $AC$ is at its minimum if $AC=MC$
+]
+
+.pull-right[
+<center>
+<img src="./lecture2_files/figure-html/Slide8_7.jpg" width="100%"/>
+</center>
+]
+---
+## Isocost curves
+.pull-left[
+- Profit = Revenue - Cost 
+
+$$
+\pi = PQ-C(Q)=Q(P-AC)
+$$
+- An isocost curve represents all the price and quantity compbinations which lead to same level of profit
+
+- MC curve intersect with each isocost curve at its lowest point
+
+- Average cost curve represents the 0 profit isocost curve
+
+]
+.pull-right[
+<center>
+<img src="./lecture2_files/figure-html/Slide25.JPG" width="120%"/>
+</center>
+]
+
+
+---
+## Production
+
+.pull-left[
+- Production takes place at the 
+
+- Demand curve = Firm’s feasible frontier 
+  
+  (slope = MRT)
+
+- Isoprofit curves = Firm’s indifference curves
+
+ (slope = MRS)
+
+- Firm maximizes profits by choosing point where
+
+   MRS = MRT 
+
+]
+.pull-right[
+<center>
+<img src="./lecture2_files/figure-html/Slide26.JPG" width="120%"/>
+</center>
+]
+
+
+---
+## Profit Maximization
+
+.pull-left[
+
+- Marginal revenue $(MR)$ = change in revenue from selling an aditional unit of output
+
+$$ 
+MR = \frac{dP(Q)Q}{dQ}
+$$
+- Profit is maximized when $MR = MC$ 
+]
+.pull-right[
+<center>
+<img src="./lecture2_files/figure-html/Slide27.JPG" width="100%"/>
+</center>
+]
+
+---
+## Welfare analysis
+
+.pull-left[
+- Consumer surplus $(CS)$: total difference between willingness to pay and actual price
+
+- Producer surplus $(PS)$: total difference between $MC$ and actual price
+
+- Total surplus (total gains from trade) = $CS + PS$
+
+- Deadweight loss: A loss of gains from trade relative to the pareto optimal allocation $MC=P$
+]
+.pull-right[
+<center>
+<img src="./lecture2_files/figure-html/Slide29.JPG" width="100%"/>
+</center>
+]
+
+---
+## Price elasticity of demand
+
+.pull-left[
+
+
+]
+.pull-right[
+<center>
+<img src="./lecture2_files/figure-html/Slide18.JPG" width="100%"/>
+</center>
+]
+---
+## Price elasticity and market power
+.pull-left[
+<center>
+<img src="./lecture2_files/figure-html/Slide19.JPG" width="100%"/>
+</center>
+]
+.pull-right[
+<center>
+<img src="./lecture2_files/figure-html/Slide20.JPG" width="100%"/>
+</center>
+]
 
 
 
