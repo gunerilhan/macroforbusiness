@@ -209,3 +209,49 @@ Usually expressed in per-capita terms (as an average income).
 - **Capitalism:** an economics system where the main institutios are private property, markets, and firms
 
 - 
+
+---
+## Philips Curve
+
+<center>
+<img src="./lecture1_files/figure-html/philips_curve_1960s.svg" width="50%"/>
+</center>
+
+---
+
+## Philips Curve
+
+<center>
+<img src="./lecture1_files/figure-html/philips_curve_1970s.svg" width="50%"/>
+</center>
+
+
+---
+
+## Philips Curve
+
+<center>
+<img src="./lecture1_files/figure-html/philips_curve_1980s.svg" width="50%"/>
+</center>
+
+---
+## Philips Curve
+
+<center>
+<img src="./lecture1_files/figure-html/philips_curve_1990s.svg" width="50%"/>
+</center>
+
+---
+## Philips Curve
+
+<center>
+<img src="./lecture1_files/figure-html/philips_curve_2000s.svg" width="50%"/>
+</center>
+
+---
+## Philips Curve
+
+<center>
+<img src="./lecture1_files/figure-html/philips_curve_2010s.svg" width="50%"/>
+</center>
+
