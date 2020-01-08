@@ -23,8 +23,15 @@ opts_chunk$set(
   cache=T##, echo=F, warning=F, message=F
   )
 ```
+## Welcome back!
+
+<center>
+<img src="./lecture1_files/figure-html/phd112219s.gif" width="80%"/>
+</center>
 
 
+
+---
 ## EC566: Macroeconomics for Business
 
 <br>
@@ -81,6 +88,8 @@ https://www.kent.ac.uk/learning/resources/studyguides/planningandwritingessays.p
 
 ## Coursework Essays - Topics 
 
+<br>
+
 - The lists of essay topics will be available in Moodle
 
 - One essay to be chosen out of three topics in Week 19 
@@ -93,22 +102,26 @@ https://www.kent.ac.uk/learning/resources/studyguides/planningandwritingessays.p
 
 - Start thinking and preparing early
 
-- Get consultation and guidance  - make use of our office hours
+- Get consultation and guidance  - make use of my office hours
 
 ---
 
 ## Key factors for success:
 
-- Read the core texts: 
+
+<br>
+
+
+- Read the core text: 
 
  - In addition to core text, you may also use additional recommended text books
 
-- Read the Module Outline: 
- - Contains key information on  lecture, seminars and essay topics for the Spring  term.
+- Prepare for seminars – Use them to test your understanding of the lecture
+
 
 - Read a good daily newspaper  - Financial Times & Economist
 
-- Prepare for seminars – Use them to test your understanding of the lecture
+
 
 ---
 ### Measuring income and living standards
@@ -163,12 +176,26 @@ Usually expressed in per-capita terms (as an average income).
 </center>
 
 ---
+
+
+<center>
+<img src="./lecture1_files/figure-html/UK-gdp.svg" width="70%"/>
+</center>
+
+---
+
+
+<center>
+<img src="./lecture1_files/figure-html/UK-gdp-trend.svg" width="70%"/>
+</center>
+
+---
 ## Business Cycles
 
 .pull-left[
 #### Trend
 <center>
-<img src="./lecture1_files/figure-html/UK-gdp-trend.svg" width="100%"/>
+<img src="./lecture1_files/figure-html/UK-trend.svg" width="100%"/>
 </center>
 
 ]
@@ -176,7 +203,7 @@ Usually expressed in per-capita terms (as an average income).
 .pull-right[
 #### Cycle
 <center>
-<img src="./lecture1_files/figure-html/UK-gdp-cycle.svg" width="85%"/>
+<img src="./lecture1_files/figure-html/UK-gdp-cycle.svg" width="100%"/>
 </center>
 
 ]
@@ -186,9 +213,40 @@ Usually expressed in per-capita terms (as an average income).
 <center>
 <img src="./lecture1_files/figure-html/UK-gdp-trend_recession.svg" width="70%"/>
 </center>
-
+---
+### Unemployment Rate
+<center>
+<iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=pRUY&width=950&height=475" scrolling="no" frameborder="0"style="overflow:hidden; width:950px; height:525px;" allowTransparency="true" loading="lazy"></iframe>
+</center>
 
 ---
+
+<center>
+<img src="./lecture1_files/figure-html/UK_productivity.svg" width="70%"/>
+</center>
+
+---
+<center>
+<img src="./lecture1_files/figure-html/UK_productivity-trend.svg" width="70%"/>
+</center>
+
+---
+## Real Wage
+
+<center>
+<img src="./lecture1_files/figure-html/real_wages.svg" width="70%"/>
+</center>
+
+---
+### Monetary Policy
+
+<center>
+<iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=oHnd&width=950&height=475" scrolling="no" frameborder="0"style="overflow:hidden; width:950px; height:525px;" allowTransparency="true" loading="lazy"></iframe>
+</center>
+---
+
+
+
 .pull-left[
 ## Inequality
 
@@ -200,15 +258,6 @@ Usually expressed in per-capita terms (as an average income).
 
 
 
----
-
-## Key Concepts
-
-- **Institutions:** laws and social customs governing the production and distribution of goods and services 
-
-- **Capitalism:** an economics system where the main institutios are private property, markets, and firms
-
-- 
 
 ---
 ## Philips Curve
@@ -254,4 +303,19 @@ Usually expressed in per-capita terms (as an average income).
 <center>
 <img src="./lecture1_files/figure-html/philips_curve_2010s.svg" width="50%"/>
 </center>
+
+
+
+---
+## Fiscal Policy
+<center>
+<img src="./lecture1_files/figure-html/revenue-expenditure-scatter.svg" width="60%"/>
+</center>
+  
+---
+## Regulation
+<center>
+<img src="./lecture1_files/figure-html/pmr.svg" width="60%"/>
+</center>
+
 
