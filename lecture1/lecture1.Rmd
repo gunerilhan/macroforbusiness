@@ -121,61 +121,136 @@ https://www.kent.ac.uk/learning/resources/studyguides/planningandwritingessays.p
 
 - Read a good daily newspaper  - Financial Times & Economist
 
+---
+
+class: inverse, center, middle
+name: lect
+
+# Overview
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>
+
+---
+
+
+## Topics
+
+.pull-left[
+
+- Microeconomics review
+
+ - Labor discipline model- Unit [6.6](https://core-econ.org/the-economy/book/text/06.html#66-work-and-wages-the-labour-discipline-model), [6.7](https://core-econ.org/the-economy/book/text/06.html#67-wages-effort-and-profits-in-the-labour-discipline-model)
+ 
+ - Price setting firms- Unit [7](https://core-econ.org/the-economy/book/text/07.html)
+ 
+ - Supply and demand – Unit [8](https://core-econ.org/the-economy/book/text/08.html)
+ 
+- The labor market – Unit [9](https://core-econ.org/the-economy/book/text/09.html)
+
+- Banks, money and the credit market – Unit [10](https://core-econ.org/the-economy/book/text/10.html)
+
+- Economic fluctuations - Unit [13](https://core-econ.org/the-economy/book/text/13.html)
+
+- Fiscal policy – Unit [14](https://core-econ.org/the-economy/book/text/14.html)
+
+- Monetary policy – Unit [15](https://core-econ.org/the-economy/book/text/15.html)
+
+- Long-run economic performance – Unit [16](https://core-econ.org/the-economy/book/text/16.html)
+
+- International trade and globalization – Unit [18](https://core-econ.org/the-economy/book/text/18.html)
+]
+
+.pull-right[
+#### If time permits, we will cover a selection of
+- Economic inequality – Unit [19](https://core-econ.org/the-economy/book/text/19.html)
+
+- Economics of the environment – Unit [20](https://core-econ.org/the-economy/book/text/20.html)
+
+- Markets, efficiency, and public policy – Unit [12](https://core-econ.org/the-economy/book/text/12.html)
+
+- Innovation, information, and the networked economy – Unit [21](https://core-econ.org/the-economy/book/text/21.html)
+
+- The Great Depression – Unit [17](https://core-econ.org/the-economy/book/text/17.html)
+
+]
+---
+### Microeconomics review 
+
+<br>
+
+
+We will learn
+
+- how wages are determined within a firm,
+
+- how prices are set when a firm has a price setting power,
+
+- how prices are determined when each individual firm and each consumer has no power to set prices. 
+---
+### The labor market
+
+<br>
+
+We will learn
+
+- economy wide determination of wages, employment, and the distribution of income 
+
+- how wages and unemployment rate are related
+
+- how wage setting and price setting process determines real wages and the level of unemployment in the economy
 
 
 ---
-### Measuring income and living standards
-
-- Gross Domestic Product (GDP) = A measure of total income and output of the economy in a given period.
-Usually expressed in per-capita terms (as an average income).
-
-- GDP per capita ≠ Disposable income
-
-- Disposable income = Total income – taxes + government transfers
-
-- Both are imperfect measures of well-being
-
-
----
-## GDP per capita over time
+### Unemployment rate
 
 <center>
-<img src="./lecture1_files/figure-html/gdp_per_capita_time.svg" width="80%"/>
+<iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=pRUY&width=950&height=475" scrolling="no" frameborder="0"style="overflow:hidden; width:950px; height:525px;" allowTransparency="true" loading="lazy"></iframe>
 </center>
----
-
-## Timing of growth
-
-- Growth take-off occurred at different points in time for different countries:
- - Britain was the first country to experience sustained economic growth. It began around 1650.
- - In Japan, it occurred around 1870.
- - The kink for China and India happened in the second half of the 20th century. 
-
-- In some economies, substantial improvements in people’s living standards did not occur until they gained independence from colonial rule or interference by European nations.
-
 
 ---
-## Britain: first to sustained economic growth
+### Real wages
 
 <center>
-<img src="./lecture1_files/figure-html/gdp_per_capita_1650_1850.svg" width="70%"/>
+<img src="./lecture1_files/figure-html/real_wages.svg" width="70%"/>
 </center>
 
 ---
-## Sustained growth in Japan occurred around 1870
+### Productivity in the UK
 
 <center>
-<img src="./lecture1_files/figure-html/gdp_per_capita_time_recent.svg" width="70%"/>
+<img src="./lecture1_files/figure-html/UK_productivity.svg" width="70%"/>
 </center>
 
 ---
-## The kink for China and India happened in the second half of the 20th century
+### Lost Income
 
 <center>
-<img src="./lecture1_files/figure-html/gdp_per_capita_india_china_focus.svg" width="70%"/>
+<img src="./lecture1_files/figure-html/UK_productivity-trend.svg" width="70%"/>
 </center>
 
 ---
+### The credit market
+
+We will learn
+
+- role of financial institutions on funneling consumer savings into investment
+
+- principal agent problem in the borowing-lending relationship
+
+- the process of money creation
+
+- the role of central banks
+
+- determination of the interest rate charged by the banks
+
+---
+### Deposit rate
+<center>
+<iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=pSS5&width=950&height=475" scrolling="no" frameborder="0"style="overflow:hidden; width:950px; height:525px;" allowTransparency="true" loading="lazy"></iframe>
+</center>
+
+---
+### Economic fluctuations
 
 
 <center>
@@ -183,7 +258,7 @@ Usually expressed in per-capita terms (as an average income).
 </center>
 
 ---
-
+### Economic fluctuations
 
 <center>
 <img src="./lecture1_files/figure-html/UK-gdp-trend.svg" width="70%"/>
@@ -213,51 +288,13 @@ Usually expressed in per-capita terms (as an average income).
 <center>
 <img src="./lecture1_files/figure-html/UK-gdp-trend_recession.svg" width="70%"/>
 </center>
+
+
 ---
-### Unemployment Rate
+## Fiscal Policy
 <center>
-<iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=pRUY&width=950&height=475" scrolling="no" frameborder="0"style="overflow:hidden; width:950px; height:525px;" allowTransparency="true" loading="lazy"></iframe>
+<img src="./lecture1_files/figure-html/revenue-expenditure-scatter.svg" width="60%"/>
 </center>
-
----
-
-<center>
-<img src="./lecture1_files/figure-html/UK_productivity.svg" width="70%"/>
-</center>
-
----
-<center>
-<img src="./lecture1_files/figure-html/UK_productivity-trend.svg" width="70%"/>
-</center>
-
----
-## Real Wage
-
-<center>
-<img src="./lecture1_files/figure-html/real_wages.svg" width="70%"/>
-</center>
-
----
-### Monetary Policy
-
-<center>
-<iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=oHnd&width=950&height=475" scrolling="no" frameborder="0"style="overflow:hidden; width:950px; height:525px;" allowTransparency="true" loading="lazy"></iframe>
-</center>
----
-
-
-
-.pull-left[
-## Inequality
-
-]
-
-.pull-right[
-<img src="./lecture1_files/figure-html/Global-inequality-in-1800-1975-and-2015.png" width="70%"/>
-]
-
-
-
 
 ---
 ## Philips Curve
@@ -304,18 +341,108 @@ Usually expressed in per-capita terms (as an average income).
 <img src="./lecture1_files/figure-html/philips_curve_2010s.svg" width="50%"/>
 </center>
 
+---
+### Monetary Policy
+
+<center>
+<iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=oHnd&width=950&height=475" scrolling="no" frameborder="0"style="overflow:hidden; width:950px; height:525px;" allowTransparency="true" loading="lazy"></iframe>
+</center>
+---
+### Measuring income and living standards
+
+- Gross Domestic Product (GDP) = A measure of total income and output of the economy in a given period.
+Usually expressed in per-capita terms (as an average income).
+
+- GDP per capita ≠ Disposable income
+
+- Disposable income = Total income – taxes + government transfers
+
+- Both are imperfect measures of well-being
 
 
 ---
-## Fiscal Policy
+## GDP per capita over time
+
 <center>
-<img src="./lecture1_files/figure-html/revenue-expenditure-scatter.svg" width="60%"/>
+<img src="./lecture1_files/figure-html/gdp_per_capita_time.svg" width="80%"/>
 </center>
+
+---
+
+## Timing of growth
+
+- Growth take-off occurred at different points in time for different countries:
+ - Britain was the first country to experience sustained economic growth. It began around 1650.
+ - In Japan, it occurred around 1870.
+ - The kink for China and India happened in the second half of the 20th century. 
+
+- In some economies, substantial improvements in people’s living standards did not occur until they gained independence from colonial rule or interference by European nations.
+
+
+---
+## Britain: first to sustained economic growth
+
+<center>
+<img src="./lecture1_files/figure-html/gdp_per_capita_1650_1850.svg" width="70%"/>
+</center>
+
+---
+## Sustained growth in Japan occurred around 1870
+
+<center>
+<img src="./lecture1_files/figure-html/gdp_per_capita_time_recent.svg" width="70%"/>
+</center>
+
+---
+## The kink for China and India happened in the second half of the 20th century
+
+<center>
+<img src="./lecture1_files/figure-html/gdp_per_capita_india_china_focus.svg" width="70%"/>
+</center>
+
+
+---
+### International trade
+<center>
+
+<iframe src="https://ourworldindata.org/grapher/merchandise-exports-gdp-cepii?time=1827..2014&country=OWID_WRL" style="width: 80%; height: 500px; border: 0px none;"></iframe>
+
+</center>
+---
+
+class: inverse, center, middle
+name: other
+
+# If time remains...
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>
+
+---
+
+
+.pull-left[
+### Income Inequality
+
+- Inequality in the world has been decreasing
+
+- Inequality in the advanced economies have been increasing
+
+]
+
+.pull-right[
+<img src="./lecture1_files/figure-html/Global-inequality-in-1800-1975-and-2015.png" width="70%"/>
+]
+
   
 ---
-## Regulation
+### Markets, efficiency, and public policy 
 <center>
 <img src="./lecture1_files/figure-html/pmr.svg" width="60%"/>
 </center>
 
 
+---
+### Economics of environment
+<center>
+<iframe src="https://ourworldindata.org/grapher/co2-concentration-long-term" style="width: 80%; height: 500px; border: 0px none;"></iframe>
+</center>
