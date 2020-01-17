@@ -92,7 +92,7 @@ https://www.kent.ac.uk/learning/resources/studyguides/planningandwritingessays.p
 
 - The lists of essay topics will be available in Moodle
 
-- One essay to be chosen out of three topics in Week 19 
+- One essay to be chosen out of four topics in Week 19 
 
  - List of topics is available immediately
 
@@ -112,14 +112,16 @@ https://www.kent.ac.uk/learning/resources/studyguides/planningandwritingessays.p
 <br>
 
 
-- Read the core text: 
+- Read the core text: [Core The Economy](https://core-econ.org/the-economy/?lang=en) 
 
  - In addition to core text, you may also use additional recommended text books
 
 - Prepare for seminars – Use them to test your understanding of the lecture
 
 
-- Read a good daily newspaper  - Financial Times & Economist
+- Read a good daily newspaper  - The New York Times, Financial Times, Economist
+
+ - The library provides online [access](https://www.kent.ac.uk/library/resources/news/index.html) to NYT and FT.
 
 ---
 
@@ -197,7 +199,7 @@ We will learn
 
 - how wages and unemployment rate are related
 
-- how wage setting and price setting process determines real wages and the level of unemployment in the economy
+- how wage setting and price setting processes jointy determine real wages and the level of unemployment in the economy
 
 
 ---
@@ -214,20 +216,23 @@ We will learn
 <img src="./lecture1_files/figure-html/real_wages.svg" width="70%"/>
 </center>
 
+Wait! How come unemployment rate is at record-low levels but real wages remain below pre-crisis level?
+
 ---
 ### Productivity in the UK
 
 <center>
-<img src="./lecture1_files/figure-html/UK_productivity.svg" width="70%"/>
+<img src="./lecture1_files/figure-html/uk_productivity.svg" width="70%"/>
 </center>
 
 ---
 ### Lost Income
 
 <center>
-<img src="./lecture1_files/figure-html/UK_productivity-trend.svg" width="70%"/>
+<img src="./lecture1_files/figure-html/uk_productivity-trend.svg" width="70%"/>
 </center>
 
+Had the productivity growth followed the trend, each person would have earned about 11% more now.
 ---
 ### The credit market
 
@@ -235,7 +240,7 @@ We will learn
 
 - role of financial institutions on funneling consumer savings into investment
 
-- principal agent problem in the borowing-lending relationship
+- principal agent problem in the borrowing-lending relationship
 
 - the process of money creation
 
@@ -243,13 +248,25 @@ We will learn
 
 - determination of the interest rate charged by the banks
 
+ - largely determined by the policy rate set by the central banks
+
 ---
 ### Deposit rate
 <center>
 <iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=pSS5&width=950&height=475" scrolling="no" frameborder="0"style="overflow:hidden; width:950px; height:525px;" allowTransparency="true" loading="lazy"></iframe>
 </center>
 
+
+
 ---
+### Monetary Policy
+
+<center>
+<iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=oHnd&width=950&height=475" scrolling="no" frameborder="0"style="overflow:hidden; width:950px; height:525px;" allowTransparency="true" loading="lazy"></iframe>
+</center>
+
+---
+
 ### Economic fluctuations
 
 
@@ -265,7 +282,7 @@ We will learn
 </center>
 
 ---
-## Business Cycles
+### Business Cycles
 
 .pull-left[
 #### Trend
@@ -283,21 +300,17 @@ We will learn
 
 ]
 
----
-## Peak and trough of a business cycle
-<center>
-<img src="./lecture1_files/figure-html/UK-gdp-trend_recession.svg" width="70%"/>
-</center>
-
 
 ---
-## Fiscal Policy
+### Fiscal Policy
 <center>
 <img src="./lecture1_files/figure-html/revenue-expenditure-scatter.svg" width="60%"/>
 </center>
 
+
+
 ---
-## Philips Curve
+### Philips Curve
 
 <center>
 <img src="./lecture1_files/figure-html/philips_curve_1960s.svg" width="50%"/>
@@ -305,7 +318,7 @@ We will learn
 
 ---
 
-## Philips Curve
+### Philips Curve
 
 <center>
 <img src="./lecture1_files/figure-html/philips_curve_1970s.svg" width="50%"/>
@@ -314,41 +327,41 @@ We will learn
 
 ---
 
-## Philips Curve
+### Philips Curve
 
 <center>
 <img src="./lecture1_files/figure-html/philips_curve_1980s.svg" width="50%"/>
 </center>
 
 ---
-## Philips Curve
+### Philips Curve
 
 <center>
 <img src="./lecture1_files/figure-html/philips_curve_1990s.svg" width="50%"/>
 </center>
 
 ---
-## Philips Curve
+### Philips Curve
 
 <center>
 <img src="./lecture1_files/figure-html/philips_curve_2000s.svg" width="50%"/>
 </center>
 
 ---
-## Philips Curve
+### Philips Curve
 
 <center>
 <img src="./lecture1_files/figure-html/philips_curve_2010s.svg" width="50%"/>
 </center>
 
 ---
-### Monetary Policy
-
-<center>
-<iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=oHnd&width=950&height=475" scrolling="no" frameborder="0"style="overflow:hidden; width:950px; height:525px;" allowTransparency="true" loading="lazy"></iframe>
-</center>
----
 ### Measuring income and living standards
+
+<br>
+
+<br>
+
+
 
 - Gross Domestic Product (GDP) = A measure of total income and output of the economy in a given period.
 Usually expressed in per-capita terms (as an average income).
@@ -361,7 +374,7 @@ Usually expressed in per-capita terms (as an average income).
 
 
 ---
-## GDP per capita over time
+### GDP per capita over time
 
 <center>
 <img src="./lecture1_files/figure-html/gdp_per_capita_time.svg" width="80%"/>
@@ -369,38 +382,53 @@ Usually expressed in per-capita terms (as an average income).
 
 ---
 
-## Timing of growth
+### Timing of growth
+
+
+<br>
+
 
 - Growth take-off occurred at different points in time for different countries:
+
  - Britain was the first country to experience sustained economic growth. It began around 1650.
+ 
  - In Japan, it occurred around 1870.
+ 
  - The kink for China and India happened in the second half of the 20th century. 
 
 - In some economies, substantial improvements in people’s living standards did not occur until they gained independence from colonial rule or interference by European nations.
 
 
 ---
-## Britain: first to sustained economic growth
+### Britain: first to sustained economic growth
 
 <center>
 <img src="./lecture1_files/figure-html/gdp_per_capita_1650_1850.svg" width="70%"/>
 </center>
 
 ---
-## Sustained growth in Japan occurred around 1870
+### Sustained growth in Japan occurred around 1870
 
 <center>
 <img src="./lecture1_files/figure-html/gdp_per_capita_time_recent.svg" width="70%"/>
 </center>
 
 ---
-## The kink for China and India happened in the second half of the 20th century
+### The kink for China and India happened in the second half of the 20th century
 
 <center>
 <img src="./lecture1_files/figure-html/gdp_per_capita_india_china_focus.svg" width="70%"/>
 </center>
 
+---
 
+### Income as a measure of well-being
+
+<center>
+<iframe src="./lecture1_files/figure-html/gapminder.html" scrolling="no" style="width: 100%; height: 500px; border: 0px none;"></iframe>
+</center>
+
+Data: Gapminder
 ---
 ### International trade
 <center>
@@ -446,3 +474,10 @@ name: other
 <center>
 <iframe src="https://ourworldindata.org/grapher/co2-concentration-long-term" style="width: 80%; height: 500px; border: 0px none;"></iframe>
 </center>
+
+---
+### Next lecture
+
+We will discuss
+
+- wage setting process of firms
