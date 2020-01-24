@@ -1,0 +1,578 @@
+---
+title: "Lecture 4: Supply and Demand"
+subtitle: <html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>
+author: '&#x130;lhan G&#252;ner | University of Kent' 
+date: "EC566 | Macroeconomics for Business "
+output:
+  xaringan::moon_reader:
+    css: [default, rladies, metropolis-fonts] 
+    lib_dir: libs
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+library(knitr)
+opts_chunk$set(
+  fig.align="center", ##fig.width=6, fig.height=4.5, 
+  ## out.width="748px", ##out.length="520.75px",
+  dpi=300, ##fig.path='Figs/',
+  cache=T##, echo=F, warning=F, message=F
+  )
+```
+
+## Environment
+
+<br>
+
+
+
+
+- There are many firms producing the **same** product
+
+- There are many buyers
+
+- Each firm's decisions are affected by behavior of competing firms 
+
+- Each firm cannot invidually affect the decisions of the othe firms
+
+- Participants in the market are price takers
+
+ - If a seller asks a price higher than the market, no one will buy from them
+ 
+ - If a buyer offers a price lower than the market, no one will sell to them
+ 
+> **Competitive equilibrium:** "A market outcome in which all buyers and sellers are price-takers, and at the prevailing market price, the quantity supplied is equal to the quantity demanded". &ndash; Core the Economy
+
+---
+## Market demand 
+.pull-left[
+
+<br>
+
+
+- **Demand curve:** represents the total quantity that all consumers are willing to buy at a given price
+
+ - _Be careful:_ The graph reads as that given the price, what is the amount that consumers demand, not the other way around.
+
+- Represents the **willingness to pay (WTP)** of buyers
+
+- Example: secondhand textbook market
+
+]
+
+.pull-right[
+
+<br>
+
+
+<center>
+<img src="./lecture4_files/figure-html/Slide2.JPG" width="120%"/>
+</center>
+
+]
+
+---
+
+
+## Market supply
+.pull-left[
+
+<br>
+
+- **Supply curve:** represents the total quantity that all firms together are willing to sell at a given price
+
+ - _Be careful:_ The graph reads as that given the price, what is the amount that producer supply to the market, not the other way around.
+
+
+- Represents the **willingness to accept (WTA)** of sellers
+
+- Sellers may have different **reservation prices.**
+]
+
+.pull-right[
+
+<br>
+
+<center>
+<img src="./lecture4_files/figure-html/Slide3.JPG" width="120%"/>
+</center>
+
+]
+
+---
+
+## Equilibrium
+.pull-left[
+
+- The market clears at the equilibrium price
+
+ - At the equilibrium price, 
+ 
+ quantity demanded = quantity supplied
+ 
+- Any other point is not Nash equilibrium.
+
+ - At $P > P^\ast$, there will be excess supply
+ 
+ - Some sellers will benefit from charging lower prices
+ 
+ - At $P < P^\ast$, there will  be excess demand
+ 
+ - Sellers knows that price will go up, they will wait and not sell at $P < P^\ast$.
+
+]
+
+.pull-right[
+<br>
+<center>
+<img src="./lecture4_files/figure-html/Slide4.JPG" width="120%"/>
+</center>
+
+]
+
+---
+
+## Price taking firms
+.pull-left[
+<br>
+
+ - Price taking firms
+
+  - cannot benefit from charging a different price than the market price
+ 
+  - cannot influence the market
+ 
+- Demand curve for an individual firm is completely flat
+
+ - Demand for a firm's product at prices greater than the market price, $P^\ast$, will be zero.
+
+
+]
+
+.pull-right[
+<br>
+<center>
+<img src="./lecture4_files/figure-html/Slide6.JPG" width="120%"/>
+</center>
+
+]
+
+---
+
+
+## Price taking firms, profit maximizatin
+.pull-left[
+
+<br>
+
+- Given price, the firm will chose the quantity
+
+ - Firm will produce at the highest isoprofit curve in the feasible set 
+ 
+ - Highest feasible isoprofit curve is tangent to the demand curve
+ 
+ - Marginal cost curve intersects with the isoprofit curves at their lowest point
+ 
+ - MC passes through the tangency point of highest feasible isoprofit curve and  the demand curve
+]
+
+.pull-right[
+<br>
+<center>
+<img src="./lecture4_files/figure-html/Slide6.JPG" width="120%"/>
+</center>
+
+]
+
+---
+
+## A firm's supply curve
+.pull-left[
+
+
+- Supply curve = Marginal cost curve
+
+- For a given price, profit maximizing quantity is where the highest feasible isoprofit curve is tangent to feasible set.
+
+ - The tangency points is where MC intersects with the isoprofit curve
+
+- If you trace out profit maximizing quantities for each price, you get the marginal cost curve
+
+- _Be careful:_ The correct interpration of supply curve = MC is that given a price level, firms will produce the amount at which marginal cost is equal to price.
+
+- Firms might be making a loss in the short run 
+ 
+ - They will remain in the market if future profit perspectives are better.
+
+]
+
+.pull-right[
+
+<br>
+
+<center>
+<img src="./lecture4_files/figure-html/Slide7.JPG" width="120%"/>
+</center>
+
+]
+
+---
+
+
+## Firm and market supply curve
+.pull-left[
+
+<br>
+
+<br>
+
+- By horizontally summing the firm market supply curve, we will get the market supply curve
+
+- Market supply curve is the market marginal cost curve
+]
+
+.pull-right[
+
+<br>
+
+<center>
+<img src="./lecture4_files/figure-html/Slide8.JPG" width="120%"/>
+</center>
+
+]
+
+---
+
+
+## Gains from trade
+.pull-left[
+
+<br>
+
+- Consumer surplus = the difference between what consumers are willing to pay and what they actually pay
+
+- Producer surplus = the differnece between what producers are willing to accept and they they are actually paid
+
+- Gains from trade = consumer surplus + producer surplus
+
+]
+
+.pull-right[
+<br>
+
+<center>
+<img src="./lecture4_files/figure-html/Slide10.JPG" width="120%"/>
+</center>
+
+]
+
+---
+
+
+## Deadweight loss
+.pull-left[
+
+<br>
+
+<br>
+
+
+
+- Suppose the total quantity sold is less than competitive equilibrium level
+
+- The reduction in the total surplus is called deadweight loss
+
+
+]
+
+.pull-right[
+<br>
+
+<center>
+<img src="./lecture4_files/figure-html/Slide11.JPG" width="120%"/>
+</center>
+
+]
+
+---
+## Positive demand shock
+
+.pull-left[
+<br>
+
+
+- Suppose the incoming class size went up
+
+- Demand will shift to the right
+
+- Excess demand will drive up the prices
+
+- New equilibrium will be on point B
+
+ - Price and quantity will go up
+
+- Movement along the supply curve
+
+ - Quantity supplied will increase
+ 
+ - No change in the supply
+
+]
+
+.pull-right[
+<center>
+<img src="./lecture4_files/figure-html/Slide12.JPG" width="120%"/>
+</center>
+
+]
+
+---
+## Positive supply shock
+
+.pull-left[
+
+<br>
+
+- Suppose firms became more productive as a result of technological progress
+
+- Supply curve will shift to the right
+
+- Excess supply will push down the prices
+
+- Price will go down, quantity wil go up
+
+- Movement along the demand curve
+
+
+
+]
+
+.pull-right[
+<center>
+<img src="./lecture4_files/figure-html/Slide13.JPG" width="120%"/>
+</center>
+
+]
+
+---
+## Firm entry
+
+.pull-left[
+
+<br>
+
+<br>
+
+
+- Suppose more firms enter to the market
+
+- Supply will shift to the right
+
+]
+
+.pull-right[
+<center>
+<img src="./lecture4_files/figure-html/Slide14.JPG" width="120%"/>
+</center>
+
+]
+
+---
+## Tax
+
+.pull-left[
+
+- Suppose the government imposes a proportional tax on a product
+
+- This will shift up (left) the supply curve
+
+ - What matters for the sellers is what remains to them, not what consumers pay
+ 
+- The new equilibrium point is B
+
+ - The difference between $P_1$ and $P_0$ is the amount of tax.
+
+ - Consumers pay higher than what they used to pay
+ 
+ - Seller receive less than what they used to receive
+ 
+
+]
+
+.pull-right[
+<center>
+<br>
+<img src="./lecture4_files/figure-html/Slide15.JPG" width="120%"/>
+</center>
+
+]
+
+---
+## Tax
+
+.pull-left[
+<br>
+> **Tax incidence:** The effect of tax on welfare of consumers and producers &ndash; Core the Economy 
+
+
+]
+
+.pull-right[
+<br>
+<center>
+<img src="./lecture4_files/figure-html/figure-08-15-a.jpg" width="120%"/>
+</center>
+
+]
+
+---
+## Tax
+
+.pull-left[
+<br>
+> **Tax incidence:** The effect of tax on welfare of consumers and producers &ndash; Core the Economy 
+
+- Tax reduces the consumer surplus
+]
+
+.pull-right[
+<br>
+<center>
+<img src="./lecture4_files/figure-html/figure-08-15-b.jpg" width="120%"/>
+</center>
+
+]
+
+---
+## Tax
+
+.pull-left[
+<br>
+> **Tax incidence:** The effect of tax on welfare of consumers and producers &ndash; Core the Economy 
+
+- Tax reduces the consumer surplus
+
+- Tax reduces the producer surplus
+
+]
+
+.pull-right[
+<br>
+<center>
+<img src="./lecture4_files/figure-html/figure-08-15-c.jpg" width="120%"/>
+</center>
+
+]
+
+
+---
+## Tax
+
+.pull-left[
+<br>
+
+> **Tax incidence:** The effect of tax on welfare of consumers and producers &ndash; Core the Economy 
+
+- Tax reduces the consumer surplus
+
+- Tax reduces the producer surplus
+
+- Reduction in consumer surplus plus the producer surplus is greater than the tax revenue
+
+- Tax creates deadweight loss
+
+- Total social cost of tax depends on where the tax revenue is used.
+
+]
+
+.pull-right[
+<br>
+<center>
+<img src="./lecture4_files/figure-html/figure-08-15-d.jpg" width="120%"/>
+</center>
+
+]
+
+
+---
+## Perfect competition
+
+<br>
+
+A perfectly competitive market has the following properties:
+
+- Homogeneous (identical) goods/services are exchanged.
+
+- Very large number of potential buyers and sellers
+ 
+ - Each buyer/seller is very small relative to the market
+
+- Buyers and sellers all act independently of one another
+
+ - No cartels / no coordination
+
+- Price information easily available to buyers and sellers
+
+ - If someone is selling a good at different price, everyone knows about this.
+---
+## Characteristics of perfect competition
+
+<br>
+
+- **Law of One Price:** All transactions take place at a single price.
+
+- At that price, the market clears (supply = demand).
+
+- Buyers and sellers are all price-takers.
+
+- All potential gains from trade are realized.
+
+- Perfect competition may not hold completely in reality, but can be a good approximation to actual firm behaviour.
+
+
+---
+## Evidence of perfect competition?
+<br>
+
+Economists have used two tests for competitive equilibrium:
+
+1. Do all trades take place at the same price?
+
+2. Are firms selling goods at a price equal to marginal cost?
+
+It is hard to find examples of perfect competition:
+
+- Even when consumers can easily check the price of products (online shopping sites), prices of the same product differ.
+
+- Fulton Fish Market study – within the same market, prices of the same fish product differed for different customer types.
+
+---
+
+## Price-setters vs. Price-takers
+<br>
+<br>
+
+|Price-setters (Monopoly) | Price-takers (Perfect Competition) |
+|:--- |:---|
+| MC < Price | MC = Price|
+|Deadweight losses (Pareto inefficient) | No deadweight losses (can be Pareto efficient) |
+| Owners receive economic rents in both long- and short-run | No economic rents in the long-run |
+| Firms advertise their unique product | Little advertising expenditure |
+| Firms invest in R&D, seek to prevent copying | Little incentive for innovation |
+
+
+---
+## Next week
+
+<br>
+
+<br>
+
+The labor market
+
+
+
