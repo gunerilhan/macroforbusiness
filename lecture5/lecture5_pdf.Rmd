@@ -1,0 +1,467 @@
+---
+title: "Lecture 5: The Labor Market"
+subtitle: <html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>
+author: '&#x130;lhan G&#252;ner | University of Kent' 
+date: "EC566 | Macroeconomics for Business "
+output:
+  xaringan::moon_reader:
+    css: [default, rladies, metropolis-fonts] 
+    lib_dir: libs
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+library(knitr)
+opts_chunk$set(
+  fig.align="center", ##fig.width=6, fig.height=4.5, 
+  ## out.width="748px", ##out.length="520.75px",
+  dpi=300, ##fig.path='Figs/',
+  cache=T##, echo=F, warning=F, message=F
+  )
+```
+
+
+### This lecture
+
+<br>
+
+
+- We will learn about
+
+ - how the economy-wide labor market determines wages and employment
+
+- We will model 
+
+ - wage-setting behavior of the firms in the entire economy
+ 
+ - price-setting behavior of the firms in the entire economy
+ 
+
+
+---
+### Measuring unemployment
+
+
+<center>
+<img src="./lecture5_files/figure-html/pop-unemp.jpg" width="100%"/>
+</center>
+
+---
+### Definitions
+
+- **Population of working age:** number of all the people aged between 15 and 64.
+
+- **Labor force:** number of all the people in the working age who are working or seeking an employment outside of the household. 
+
+- **Out of labor force:** number of working age people who are not working and not actively looking for a job
+
+ - e.g. people unable to work due to sickness, stay at home parents to raise children, ...
+ 
+- **Employed:** number of people that have a job
+
+- **Unemployed:** number of people that does not have a job but actively seeking for one
+
+---
+### Labor force participation rate (LFPR)
+
+$$ \text{Labor force participation rate} = \frac{\text{Labor force}}{\text{Population of working age}}$$
+
+
+<center>
+<img src="./lecture5_files/figure-html/lfpr.svg" width="50%"/>
+</center>
+
+Data source: [The World Bank](https://data.worldbank.org/indicator/SL.TLF.CACT.ZS)
+
+
+---
+### Employment to working age population ratio (E/pop)
+
+$$\text{Employment rate} = \frac{\text{Employed}}{\text{Population of working age}}$$
+
+
+<center>
+<img src="./lecture5_files/figure-html/epop.svg" width="50%"/>
+</center>
+
+
+Data source: [The World Bank](https://data.worldbank.org/indicator/SL.EMP.TOTL.SP.ZS)
+
+
+
+---
+### Unemployment rate 
+
+$$ \text{Unemployment rate} = \frac{\text{Unemployed}}{\text{Labor force}}$$
+
+
+<center>
+<img src="./lecture5_files/figure-html/ur.svg" width="50%"/>
+</center>
+
+Data source: [The World Bank](https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS)
+
+
+
+
+
+---
+### Labor force participation rate and unemployment rate
+
+<center>
+<img src="./lecture5_files/figure-html/lfpr_ur.svg" width="70%"/>
+</center>
+
+
+
+---
+### Recall what we learned in the previous lectures
+
+<br>
+
+<br>
+
+
+At the firm level
+
+- Wage setting: firms set wage sufficiently high to motiveate employees to exert high effort   
+
+- Price setting: firms set a markup above the marginal cost of production to maximize profits  
+
+---
+### The chain of firm decisions
+
+<br>
+
+<center>
+
+Nominal wage = f(other firms’ prices and wages, unemployment rate)
+  
+   $$ \Downarrow$$
+
+Price = f(<span style="color:red">own nominal wage</span>, demand for own product)
+
+$$ \Downarrow$$
+
+Output = f(optimal <span style="color:red">price</span>, demand curve)
+
+$$ \Downarrow$$
+
+Number of employees = f(<span style="color:red">ouput</span>, production function)
+
+</center>
+
+- Notice that unemployment rate, input to the nominal wage fuction, depends on the number of employees fuction.
+
+ - Hence macroeconomics: actions/decisions of all agents in the economy are interrelated.
+
+---
+### Goal of this lecture
+
+Characterize
+
+- real wage = $W/P$ in the entire economy
+
+ - $W$ is the nominal wage, $P$ is the price level of a representative bundle of goods in the economy
+ 
+ - What workers care about is the what they can purchase with their salaries
+
+- level of employment in the entire economy
+
+<br>
+
+To achieve this goal
+
+1. derive the wage-setting curve in the entire economy
+
+2. derive the price-setting curve in the entire economy
+
+3. put them together to get the equilibrium
+
+---
+.pull-left[
+### Deriving the wage-setting curve 
+
+- As unemployment decreases 
+
+ - workers are more likely to find a job elsewhere had they lose their job
+ 
+ - results in lower employment rents
+ 
+ - to keep workers motivated, firms raise wages
+ 
+ - hence there is a positive relationship between employment and real wages
+
+- <span style="color:red">In the last seminar I overcomplicated this graph.</span>
+
+ - <span style="color:red">Assume workers' best response curve have characteristics that a rightward shift always leads to an increase in the wage rate.</span>
+
+
+]
+
+.pull-right[
+
+<br>
+
+
+<center>
+<img src="./lecture5_files/figure-html/Picture1.png" width="70%"/>
+</center>
+
+]
+
+
+
+---
+### Wage-setting curve
+.pull-left[
+
+- **Wage-setting curve** shows the real wage necessary to keep workers motivated at each level of economy-wide employment.
+
+- At a given real wage, the distance between the corresponding employment rate and the labor force is the unemployment rate (times the labor force participation rate)
+
+ - Example, at real wage = $w_L$. the unemployment rate is equal to 12%.
+
+- As wages increase, the unemployment rate decreases.
+
+]
+
+.pull-right[
+
+<br>
+
+
+<center>
+<img src="./lecture5_files/figure-html/figure-09-04-c.jpg" width="100%"/>
+</center>
+
+]
+
+
+---
+
+
+### An estimated wage-setting curve
+
+.pull-left[
+<br>
+
+
+An example wage-setting curve 
+
+- estimated from the Current Population Survey (USA) from 1979 to 2015 by Stephen Machin
+
+- using unemployment rates and wages in the local areas 
+]
+
+.pull-right[
+
+<br>
+
+
+<center>
+<img src="./lecture5_files/figure-html/Slide7.JPG" width="120%"/>
+</center>
+
+]
+
+---
+
+### Deriving the price-setting
+
+- Given a firm's own wage and the demand for own product, the marketing department sets the prices
+
+- Given the price chosen by the marketing department, production department sets the quantity
+
+- Given production, HR hires workers
+
+### Assumptions 
+
+- Labor is the only factor of production
+
+- One unit of labor produces $\lambda$ units of output
+
+ - Constant marginal cost of production
+ 
+ - Marginal cost of production is equal to wage rate over labor productivity, $W/\lambda$
+ 
+- All firms face the same demand curve
+
+
+
+---
+### Price Setting curve
+
+.pull-left[
+
+- Notice that Wage curve is the marginal cost curve
+
+- Markup, $\mu\equiv\frac{p^\ast-MC}{p^\ast} = \frac{p^\ast-W/\lambda}{p^\ast}$, where $p^\ast$ is the firm price
+
+ - Markup is a measure of market power
+ 
+ - Remember that in a competitive market, $p^\ast=MC$, and hence firms don't have any market power
+ 
+- Since all firms face the same demand curve, they all charge the same price, hence $p^\ast=P$, where $P$ is the price of a bundle of the goods in the economy.
+
+$$ \mu  = \frac{P-W/\lambda}{P} $$
+ 
+]
+
+
+.pull-right[
+
+<br>
+
+
+<center>
+<img src="./lecture5_files/figure-html/Slide8.JPG" width="120%"/>
+</center>
+
+]
+
+---
+
+
+### Price setting
+
+- We assume that the markup, $\mu$ is determined by the market conditions such
+
+ - level of competetition in the market
+ 
+ - elasticity of demand
+ 
+- Then $\mu  = \frac{P-W/\lambda}{P} = 1 - \frac{W}{P} \frac{1}{\lambda} \Rightarrow \frac{W}{P}=\lambda - \lambda \mu$
+
+- Real wage, $\frac{W}{P} = \lambda - \lambda \mu$, is independent of the employment level
+
+- To better understand this point, read 
+
+ - [Einstein: The elasticity of demand and the marginal revenue](https://core-econ.org/the-economy/book/text/07.html#einstein-the-elasticity-of-demand-and-the-marginal-revenue)
+ 
+ - [Einstein: The price-setting curve](https://core-econ.org/the-economy/book/text/09.html#einstein-the-price-setting-curve)
+
+ - Or, check out the last slide in this deck.
+---
+name: back-normal
+
+### Price-setting curve
+
+- It's actually a point (or flat line independent of employment level)
+
+- Given a wage rate, all firms charge a price $P$ such that $W/P$ is equal to a constant that is determined by factors such as
+ - consumer preferences 
+ - level of competition
+ - labor productivity
+
+<center>
+<img src="./lecture5_files/figure-html/Slide9.JPG" width="60%"/>
+</center>
+
+
+
+---
+
+
+### Price-setting curve, cont'd
+
+- At point A, real wage is high, and output is high
+ - Given demand, firms raise prices, output decreases, but profits increase.
+ - Economy moves towards point B
+ 
+- At point C, real wage is low, and output is low
+ - Given demand, firms decreases prices, output increases, but profits increase.
+ - Economy moves towards B 
+
+<center>
+<img src="./lecture5_files/figure-html/Slide10.JPG" width="60%"/>
+</center>
+
+---
+
+### Labor market equilibrium
+
+.pull-left[
+- Intersection of the wage-setting curve and price-setting curve gives the equilibrium.
+ 
+ - Point $X$ in the graph
+ 
+- In equilibrium, there is unemployment
+
+- In equilibrium, real wage is lower than labor productivity
+]
+
+.pull-right[
+
+<br>
+<center>
+<img src="./lecture5_files/figure-html/Slide11.JPG" width="100%"/>
+</center>
+]
+
+---
+
+### Next lecture
+
+<br>
+
+<br>
+
+
+- Distribution of output
+
+- Involuntary unemployment
+
+- Demand-deficit unemployment
+
+- Labor market policies
+
+- Labor unions
+
+
+
+---
+name: price-math
+### Price-setting curve, [mathematical](./lecture5.html#back-normal)
+
+
+.pull-left[
+- Recall that at the optimum, slope of the isoprofit curve (MRS) is equal to the slope of the demand curve (MRT)
+
+
+- Write down the slope of the demand curve as a function of elasticity
+
+$$ \epsilon = -\frac{\frac{\Delta Q}{Q}}{\frac{\Delta P}{P}} = -\frac{\Delta Q}{\Delta P}\frac{P}{Q}$$
+$$MRT \equiv -\frac{\Delta P}{\Delta Q} = \frac{P}{Q} \frac{1}{\epsilon}$$
+- Then write down MRS, say, at the $\pi=k$ isoprofit line 
+
+$$P*Q - Q*AC = k$$ 
+
+- Differentiate alongside this curve
+
+$$dP*Q+P*dQ-dQ*AC = 0$$
+
+]
+.pull-right[
+
+$$dP*Q -dQ(P-AC) = 0$$
+
+$$MRS=\frac{dP}{dQ}=\frac{P-AC}{Q}=\frac{P-W/\lambda}{Q}$$
+since average cost of production is equal to marginal cost (in this economy with cost unit costs), which is equal to $W/\lambda$
+
+- In optimum, $MRS=MRT$
+
+$$\frac{P-W/\lambda}{Q}=\frac{P}{Q} \frac{1}{\epsilon}$$
+Then
+
+$$\mu = \frac{P-W/\lambda}{P}= \frac{1}{\epsilon} \Rightarrow \frac{W}{P} = \lambda - \frac{\lambda}{\epsilon}$$
+- Real wage is positively related to elasticity of substituion, but independent of employment
+]
+
+
+
+

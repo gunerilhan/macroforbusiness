@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>Lecture 5: The Labor Market</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="İlhan Güner | University of Kent" />
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/rladies.css" rel="stylesheet" />
+    <link href="libs/remark-css/metropolis-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Lecture 5: The Labor Market
+## <html>
+<div style="float:left">
+
+</div>
+<hr color='#EB811B' size=1px width=796px>
+</html>
+### İlhan Güner | University of Kent
+### EC566 | Macroeconomics for Business
+
+---
+
+
+
+
+### This lecture
+
+&lt;br&gt;
+
+
+- We will learn about
+
+ - how the economy-wide labor market determines wages and employment
+
+- We will model 
+
+ - wage-setting behavior of the firms in the entire economy
+ 
+ - price-setting behavior of the firms in the entire economy
+ 
+
+
+---
+### Measuring unemployment
+
+
+&lt;center&gt;
+&lt;img src="./lecture5_files/figure-html/pop-unemp.jpg" width="100%"/&gt;
+&lt;/center&gt;
+
+---
+### Definitions
+
+- **Population of working age:** number of all the people aged between 15 and 64.
+
+- **Labor force:** number of all the people in the working age who are working or seeking an employment outside of the household. 
+
+- **Out of labor force:** number of working age people who are not working and not actively looking for a job
+
+ - e.g. people unable to work due to sickness, stay at home parents to raise children, ...
+ 
+- **Employed:** number of people that have a job
+
+- **Unemployed:** number of people that does not have a job but actively seeking for one
+
+---
+### Labor force participation rate (LFPR)
+
+$$ \text{Labor force participation rate} = \frac{\text{Labor force}}{\text{Population of working age}}$$
+
+
+&lt;center&gt;
+&lt;img src="./lecture5_files/figure-html/lfpr.svg" width="50%"/&gt;
+&lt;/center&gt;
+
+Data source: [The World Bank](https://data.worldbank.org/indicator/SL.TLF.CACT.ZS)
+
+
+---
+### Employment to working age population ratio (E/pop)
+
+`$$\text{Employment rate} = \frac{\text{Employed}}{\text{Population of working age}}$$`
+
+
+&lt;center&gt;
+&lt;img src="./lecture5_files/figure-html/epop.svg" width="50%"/&gt;
+&lt;/center&gt;
+
+
+Data source: [The World Bank](https://data.worldbank.org/indicator/SL.EMP.TOTL.SP.ZS)
+
+
+
+---
+### Unemployment rate 
+
+$$ \text{Unemployment rate} = \frac{\text{Unemployed}}{\text{Labor force}}$$
+
+
+&lt;center&gt;
+&lt;img src="./lecture5_files/figure-html/ur.svg" width="50%"/&gt;
+&lt;/center&gt;
+
+Data source: [The World Bank](https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS)
+
+
+
+
+
+---
+### Labor force participation rate and unemployment rate
+
+&lt;center&gt;
+&lt;img src="./lecture5_files/figure-html/lfpr_ur.svg" width="70%"/&gt;
+&lt;/center&gt;
+
+
+
+---
+### Recall what we learned in the previous lectures
+
+&lt;br&gt;
+
+&lt;br&gt;
+
+
+At the firm level
+
+- Wage setting: firms set wage sufficiently high to motiveate employees to exert high effort   
+
+- Price setting: firms set a markup above the marginal cost of production to maximize profits  
+
+---
+### The chain of firm decisions
+
+&lt;br&gt;
+
+&lt;center&gt;
+
+Nominal wage = f(other firms’ prices and wages, unemployment rate)
+  
+   $$ \Downarrow$$
+
+Price = f(&lt;span style="color:red"&gt;own nominal wage&lt;/span&gt;, demand for own product)
+
+$$ \Downarrow$$
+
+Output = f(optimal &lt;span style="color:red"&gt;price&lt;/span&gt;, demand curve)
+
+$$ \Downarrow$$
+
+Number of employees = f(&lt;span style="color:red"&gt;ouput&lt;/span&gt;, production function)
+
+&lt;/center&gt;
+
+- Notice that unemployment rate, input to the nominal wage fuction, depends on the number of employees fuction.
+
+ - Hence macroeconomics: actions/decisions of all agents in the economy are interrelated.
+
+---
+### Goal of this lecture
+
+Characterize
+
+- real wage = `\(W/P\)` in the entire economy
+
+ - `\(W\)` is the nominal wage, `\(P\)` is the price level of a representative bundle of goods in the economy
+ 
+ - What workers care about is the what they can purchase with their salaries
+
+- level of employment in the entire economy
+
+&lt;br&gt;
+
+To achieve this goal
+
+1. derive the wage-setting curve in the entire economy
+
+2. derive the price-setting curve in the entire economy
+
+3. put them together to get the equilibrium
+
+---
+.pull-left[
+### Deriving the wage-setting curve 
+
+- As unemployment decreases 
+
+ - workers are more likely to find a job elsewhere had they lose their job
+ 
+ - results in lower employment rents
+ 
+ - to keep workers motivated, firms raise wages
+ 
+ - hence there is a positive relationship between employment and real wages
+
+- &lt;span style="color:red"&gt;In the last seminar I overcomplicated this graph.&lt;/span&gt;
+
+ - &lt;span style="color:red"&gt;Assume workers' best response curve have characteristics that a rightward shift always leads to an increase in the wage rate.&lt;/span&gt;
+
+
+]
+
+.pull-right[
+
+&lt;br&gt;
+
+
+&lt;center&gt;
+&lt;img src="./lecture5_files/figure-html/Picture1.png" width="70%"/&gt;
+&lt;/center&gt;
+
+]
+
+
+
+---
+### Wage-setting curve
+.pull-left[
+
+- **Wage-setting curve** shows the real wage necessary to keep workers motivated at each level of economy-wide employment.
+
+- At a given real wage, the distance between the corresponding employment rate and the labor force is the unemployment rate (times the labor force participation rate)
+
+ - Example, at real wage = `\(w_L\)`. the unemployment rate is equal to 12%.
+
+- As wages increase, the unemployment rate decreases.
+
+]
+
+.pull-right[
+
+&lt;br&gt;
+
+
+&lt;center&gt;
+&lt;img src="./lecture5_files/figure-html/figure-09-04-c.jpg" width="100%"/&gt;
+&lt;/center&gt;
+
+]
+
+
+---
+
+
+### An estimated wage-setting curve
+
+.pull-left[
+&lt;br&gt;
+
+
+An example wage-setting curve 
+
+- estimated from the Current Population Survey (USA) from 1979 to 2015 by Stephen Machin
+
+- using unemployment rates and wages in the local areas 
+]
+
+.pull-right[
+
+&lt;br&gt;
+
+
+&lt;center&gt;
+&lt;img src="./lecture5_files/figure-html/Slide7.JPG" width="120%"/&gt;
+&lt;/center&gt;
+
+]
+
+---
+
+### Deriving the price-setting
+
+- Given a firm's own wage and the demand for own product, the marketing department sets the prices
+
+- Given the price chosen by the marketing department, production department sets the quantity
+
+- Given production, HR hires workers
+
+### Assumptions 
+
+- Labor is the only factor of production
+
+- One unit of labor produces `\(\lambda\)` units of output
+
+ - Constant marginal cost of production
+ 
+ - Marginal cost of production is equal to wage rate over labor productivity, `\(W/\lambda\)`
+ 
+- All firms face the same demand curve
+
+
+
+---
+### Price Setting curve
+
+.pull-left[
+
+- Notice that Wage curve is the marginal cost curve
+
+- Markup, `\(\mu\equiv\frac{p^\ast-MC}{p^\ast} = \frac{p^\ast-W/\lambda}{p^\ast}\)`, where `\(p^\ast\)` is the firm price
+
+ - Markup is a measure of market power
+ 
+ - Remember that in a competitive market, `\(p^\ast=MC\)`, and hence firms don't have any market power
+ 
+- Since all firms face the same demand curve, they all charge the same price, hence `\(p^\ast=P\)`, where `\(P\)` is the price of a bundle of the goods in the economy.
+
+$$ \mu  = \frac{P-W/\lambda}{P} $$
+ 
+]
+
+
+.pull-right[
+
+&lt;br&gt;
+
+
+&lt;center&gt;
+&lt;img src="./lecture5_files/figure-html/Slide8.JPG" width="120%"/&gt;
+&lt;/center&gt;
+
+]
+
+---
+
+
+### Price setting
+
+- We assume that the markup, `\(\mu\)` is determined by the market conditions such
+
+ - level of competetition in the market
+ 
+ - elasticity of demand
+ 
+- Then `\(\mu  = \frac{P-W/\lambda}{P} = 1 - \frac{W}{P} \frac{1}{\lambda} \Rightarrow \frac{W}{P}=\lambda - \lambda \mu\)`
+
+- Real wage, `\(\frac{W}{P} = \lambda - \lambda \mu\)`, is independent of the employment level
+
+- To better understand this point, read 
+
+ - [Einstein: The elasticity of demand and the marginal revenue](https://core-econ.org/the-economy/book/text/07.html#einstein-the-elasticity-of-demand-and-the-marginal-revenue)
+ 
+ - [Einstein: The price-setting curve](https://core-econ.org/the-economy/book/text/09.html#einstein-the-price-setting-curve)
+
+ - Or, check out the last slide in this deck.
+---
+name: back-normal
+
+### Price-setting curve
+
+- It's actually a point (or flat line independent of employment level)
+
+- Given a wage rate, all firms charge a price `\(P\)` such that `\(W/P\)` is equal to a constant that is determined by factors such as
+ - consumer preferences 
+ - level of competition
+ - labor productivity
+
+&lt;center&gt;
+&lt;img src="./lecture5_files/figure-html/Slide9.JPG" width="60%"/&gt;
+&lt;/center&gt;
+
+
+
+---
+
+
+### Price-setting curve, cont'd
+
+- At point A, real wage is high, and output is high
+ - Given demand, firms raise prices, output decreases, but profits increase.
+ - Economy moves towards point B
+ 
+- At point C, real wage is low, and output is low
+ - Given demand, firms decreases prices, output increases, but profits increase.
+ - Economy moves towards B 
+
+&lt;center&gt;
+&lt;img src="./lecture5_files/figure-html/Slide10.JPG" width="60%"/&gt;
+&lt;/center&gt;
+
+---
+
+### Labor market equilibrium
+
+.pull-left[
+- Intersection of the wage-setting curve and price-setting curve gives the equilibrium.
+ 
+ - Point `\(X\)` in the graph
+ 
+- In equilibrium, there is unemployment
+
+- In equilibrium, real wage is lower than labor productivity
+]
+
+.pull-right[
+
+&lt;br&gt;
+&lt;center&gt;
+&lt;img src="./lecture5_files/figure-html/Slide11.JPG" width="100%"/&gt;
+&lt;/center&gt;
+]
+
+---
+
+### Next lecture
+
+&lt;br&gt;
+
+&lt;br&gt;
+
+
+- Distribution of output
+
+- Involuntary unemployment
+
+- Demand-deficit unemployment
+
+- Labor market policies
+
+- Labor unions
+
+
+
+---
+name: price-math
+### Price-setting curve, [mathematical](./lecture5.html#back-normal)
+
+
+.pull-left[
+- Recall that at the optimum, slope of the isoprofit curve (MRS) is equal to the slope of the demand curve (MRT)
+
+
+- Write down the slope of the demand curve as a function of elasticity
+
+$$ \epsilon = -\frac{\frac{\Delta Q}{Q}}{\frac{\Delta P}{P}} = -\frac{\Delta Q}{\Delta P}\frac{P}{Q}$$
+`$$MRT \equiv -\frac{\Delta P}{\Delta Q} = \frac{P}{Q} \frac{1}{\epsilon}$$`
+- Then write down MRS, say, at the `\(\pi=k\)` isoprofit line 
+
+`$$P*Q - Q*AC = k$$` 
+
+- Differentiate alongside this curve
+
+`$$dP*Q+P*dQ-dQ*AC = 0$$`
+
+]
+.pull-right[
+
+`$$dP*Q -dQ(P-AC) = 0$$`
+
+`$$MRS=\frac{dP}{dQ}=\frac{P-AC}{Q}=\frac{P-W/\lambda}{Q}$$`
+since average cost of production is equal to marginal cost (in this economy with cost unit costs), which is equal to `\(W/\lambda\)`
+
+- In optimum, `\(MRS=MRT\)`
+
+`$$\frac{P-W/\lambda}{Q}=\frac{P}{Q} \frac{1}{\epsilon}$$`
+Then
+
+`$$\mu = \frac{P-W/\lambda}{P}= \frac{1}{\epsilon} \Rightarrow \frac{W}{P} = \lambda - \frac{\lambda}{\epsilon}$$`
+- Real wage is positively related to elasticity of substituion, but independent of employment
+]
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"ratio": "16:9",
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
