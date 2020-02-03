@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
   <head>
     <title>Lecture 5: The Labor Market</title>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <meta name="author" content="İlhan Güner | University of Kent" />
     <link href="libs/remark-css/default.css" rel="stylesheet" />
     <link href="libs/remark-css/rladies.css" rel="stylesheet" />
@@ -78,8 +78,12 @@ $$ \text{Labor force participation rate} = \frac{\text{Labor force}}{\text{Popul
 &lt;/center&gt;
 
 Data source: [The World Bank](https://data.worldbank.org/indicator/SL.TLF.CACT.ZS)
+---
+### Labor force participation rate in the US
 
-
+&lt;center&gt;
+&lt;iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=lHIA&amp;width=870&amp;height=475" scrolling="no" frameborder="0"style="overflow:hidden; width:870px; height:525px;" allowTransparency="true" loading="lazy"&gt;&lt;/iframe&gt;
+&lt;/center&gt;
 ---
 ### Employment to working age population ratio (E/pop)
 
@@ -118,7 +122,7 @@ Data source: [The World Bank](https://data.worldbank.org/indicator/SL.UEM.TOTL.Z
 &lt;img src="./lecture5_files/figure-html/lfpr_ur.svg" width="70%"/&gt;
 &lt;/center&gt;
 
-
+Data source: The World Bank
 ---
 ### Labor force participation rate and unemployment rate
 
@@ -136,7 +140,7 @@ Data source: [The World Bank](https://data.worldbank.org/indicator/SL.UEM.TOTL.Z
 
 At the firm level
 
-- Wage setting: firms set wage sufficiently high to motiveate employees to exert high effort   
+- Wage setting: firms set wage sufficiently high to motivate employees to exert high effort   
 
 - Price setting: firms set a markup above the marginal cost of production to maximize profits  
 
@@ -163,7 +167,7 @@ Number of employees = f(&lt;span style="color:red"&gt;ouput&lt;/span&gt;, produc
 
 &lt;/center&gt;
 
-- Notice that unemployment rate, input to the nominal wage fuction, depends on the number of employees fuction.
+- Notice that unemployment rate, input to the nominal wage function, depends on the number of employees function.
 
  - Hence macroeconomics: actions/decisions of all agents in the economy are interrelated.
 
@@ -276,7 +280,7 @@ To achieve this goal
 
  - Example, at real wage = `\(w_L\)`. the unemployment rate is equal to 12%.
 
-- As wages increase, the unemployment rate decreases.
+- As unemployment rate decreases, real wage increases.
 
 ]
 
@@ -329,6 +333,8 @@ An example wage-setting curve
 
 - Given production, HR hires workers
 
+
+Using these decisions, we will derive the price-setting curve.
 ### Assumptions 
 
 - Labor is the only factor of production
@@ -347,14 +353,13 @@ An example wage-setting curve
 ### Price Setting curve
 
 .pull-left[
-
-- Notice that Wage curve is the marginal cost curve
+- To maximize profits, the firm produces at point B.
 
 - Markup, `\(\mu\equiv\frac{p^\ast-MC}{p^\ast} = \frac{p^\ast-W/\lambda}{p^\ast}\)`, where `\(p^\ast\)` is the firm price
 
  - Markup is a measure of market power
  
- - Remember that in a competitive market, `\(p^\ast=MC\)`, and hence firms don't have any market power
+ - Contrast this with a competitive market in which `\(p^\ast=MC\)`, and hence firms don't have any market power
  
 - Since all firms face the same demand curve, they all charge the same price, hence `\(p^\ast=P\)`, where `\(P\)` is the price of a bundle of the goods in the economy.
 
@@ -379,7 +384,7 @@ $$ \mu  = \frac{P-W/\lambda}{P} $$
 
 ### Price setting
 
-- We assume that the markup, `\(\mu\)` is determined by the market conditions such
+- We assume that the markup, `\(\mu\)`, is determined by the market conditions such
 
  - level of competetition in the market
  
@@ -388,6 +393,8 @@ $$ \mu  = \frac{P-W/\lambda}{P} $$
 - Then `\(\mu  = \frac{P-W/\lambda}{P} = 1 - \frac{W}{P} \frac{1}{\lambda} \Rightarrow \frac{W}{P}=\lambda - \lambda \mu\)`
 
 - Real wage, `\(\frac{W}{P} = \lambda - \lambda \mu\)`, is independent of the employment level
+
+- Real wage is positively related to labor productivity, and inversely related to market power.
 
 - To better understand this point, read 
 
@@ -436,9 +443,15 @@ name: back-normal
 ### Labor market equilibrium
 
 .pull-left[
-- Intersection of the wage-setting curve and price-setting curve gives the equilibrium.
+- Intersection of the wage-setting curve and price-setting curve gives the Nash equilibrium.
  
  - Point `\(X\)` in the graph
+ - Firms pay the smallest wage to make workers exert sufficient effort
+ - Given the wage, employment is at the highest level
+ - Workers cannot ask more (firms will not pay more)
+ - Workers cannot put less effort (they will lose their jobs)
+ - Unemployed people cannot pursuade firms to hire them
+ - Firms cannot improve their profit by paying less wage or charging more.
  
 - In equilibrium, there is unemployment
 
@@ -454,23 +467,47 @@ name: back-normal
 ]
 
 ---
+### Last Lecture
 
-### Next lecture
+- We have learned the definitions of 
+ 
+ - labor force participation rate
+ 
+ - unemployment rate
+ 
+ - employment rate
+ 
+- We derived the wage-setting curve
+
+- We derived the price-setting curve
+
+- We characterized the labor market equilibrium using the above two
+
+---
+
+### This lecture
 
 &lt;br&gt;
 
-&lt;br&gt;
+We will put our model to use
+
+Using our model, we will
+
+- characterize distribution of output
+
+- learn effects of a reduction in aggreage demand on the economy
+ 
+ - demand-deficit unemployment
+ 
+ - automatic adjustment process of the economy
+ 
+ - goverment policies to counter the reduction in demand
+
+- learn the effects of labor unions on the economy
+
+- learn the effects of various labor market policies on the economy
 
 
-- Distribution of output
-
-- Involuntary unemployment
-
-- Demand-deficit unemployment
-
-- Labor market policies
-
-- Labor unions
 
 
 ---
@@ -480,10 +517,10 @@ name: back-normal
 - **Aggregate demand**: sum of demand by all agents in the economy, such as 
  - consumers,
  - firms,
- - goverments,
+ - governments,
  - agents from other countries
  
-- Suppose there is a reduction in the aggragete demand 
+- Suppose there is a reduction in the aggregate demand 
 
 
 ]
@@ -492,7 +529,7 @@ name: back-normal
 
 &lt;br&gt;
 &lt;center&gt;
-&lt;img src="./lecture5_files/figure-html/figure-09-12-a.JPG" width="100%"/&gt;
+&lt;img src="./lecture5_files/figure-html/figure-09-12-a.jpg" width="100%"/&gt;
 &lt;/center&gt;
 ]
 
@@ -504,7 +541,7 @@ name: back-normal
 - **Aggregate demand**: sum of demand by all agents in the economy, such as 
  - consumers,
  - firms,
- - goverments,
+ - governments,
  - agents from other countries
  
 - Suppose there is a reduction in the aggragete demand 
@@ -518,7 +555,7 @@ name: back-normal
 
 &lt;br&gt;
 &lt;center&gt;
-&lt;img src="./lecture5_files/figure-html/figure-09-12-b.JPG" width="100%"/&gt;
+&lt;img src="./lecture5_files/figure-html/figure-09-12-b.jpg" width="100%"/&gt;
 &lt;/center&gt;
 ]
 
@@ -530,7 +567,7 @@ name: back-normal
 - **Aggregate demand**: sum of demand by all agents in the economy, such as 
  - consumers,
  - firms,
- - goverments,
+ - governments,
  - agents from other countries
  
 - Suppose there is a reduction in the aggragete demand 
@@ -539,16 +576,16 @@ name: back-normal
 
  - Unemployment increases
 
-- **Cyclical unemployment:** the rise in unemployment as a result in reduction in aggregate demand
+- **Cyclical unemployment:** the rise in unemployment as a result of reduction in aggregate demand
 
- - Also known as demand-deficient unemployment
+ - Also known as **demand-deficient unemployment**
 ]
 
 .pull-right[
 
 &lt;br&gt;
 &lt;center&gt;
-&lt;img src="./lecture5_files/figure-html/figure-09-12-c.JPG" width="100%"/&gt;
+&lt;img src="./lecture5_files/figure-html/figure-09-12-c.jpg" width="100%"/&gt;
 &lt;/center&gt;
 ]
 
@@ -558,7 +595,7 @@ name: back-normal
 
 
 .pull-left[
-- After the reduction in demand, the economy as at point `\(B\)`.
+- After the reduction in demand, the economy is at the point `\(B\)`.
  - Notice that, there is no change in the real wage
  - There is no change in the nominal wage yet
  - There is no change in the prices yet
@@ -568,7 +605,7 @@ name: back-normal
 
 - Isoprot curves become steeper
  - The slope of the isoprofit curve is `\(\frac{P-W/\lambda}{Q}\)`
- - As `\(W\)` decreases, curve becomes steeper
+ - As `\(W\)` decreases, isoprofit curve becomes steeper
 
 
 ]
@@ -578,7 +615,7 @@ name: back-normal
 &lt;br&gt;
 
 &lt;center&gt;
-&lt;img src="./lecture5_files/figure-html/figure-09-13-a.JPG" width="100%"/&gt;
+&lt;img src="./lecture5_files/figure-html/figure-09-13-a.jpg" width="100%"/&gt;
 &lt;/center&gt;
 ]
 
@@ -590,8 +627,8 @@ name: back-normal
 - With the reduced wage, `\(B\)` is no longer the profit maximizing point
 
 - The firm chooses point `\(X\)` to maximize profit
- - Price goes down to `\(p^\ast\)`
- - Lower prices leads to higher quantity demanded, `\(p^{\ast \ast}\)`
+ - Price goes down to `\(p^{\ast \ast}\)`
+ - Lower prices leads to higher quantity demanded, `\(q^{\ast \ast}\)`
  
 - At the new equilibrium
  - real wage is still unchanged
@@ -605,7 +642,7 @@ name: back-normal
 &lt;br&gt;
 
 &lt;center&gt;
-&lt;img src="./lecture5_files/figure-html/figure-09-13-b.JPG" width="100%"/&gt;
+&lt;img src="./lecture5_files/figure-html/figure-09-13-b.jpg" width="100%"/&gt;
 &lt;/center&gt;
 ]
 
@@ -617,7 +654,7 @@ name: back-normal
 .pull-left[
 - The adjustment process described in the previous slided may not work as smoothly.
  
- - Resiliance from the workers
+ - Resistance from the workers
  
  - If consumers anticipate price decline, they may postpone their purchases, which reduces demand.
 
@@ -628,7 +665,7 @@ name: back-normal
 
 &lt;br&gt;
 &lt;center&gt;
-&lt;img src="./lecture5_files/figure-html/figure-09-14-a.JPG" width="100%"/&gt;
+&lt;img src="./lecture5_files/figure-html/figure-09-14-a.jpg" width="100%"/&gt;
 &lt;/center&gt;
 ]
 
@@ -658,7 +695,7 @@ Governmensts can react to reduction in demand by
 
 &lt;br&gt;
 &lt;center&gt;
-&lt;img src="./lecture5_files/figure-html/figure-09-14-b.JPG" width="100%"/&gt;
+&lt;img src="./lecture5_files/figure-html/figure-09-14-b.jpg" width="100%"/&gt;
 &lt;/center&gt;
 ]
 
@@ -666,7 +703,7 @@ Governmensts can react to reduction in demand by
 ### Distribution of income
 
 &lt;center&gt;
-&lt;img src="./lecture5_files/figure-html/figure-09-16.JPG" width="60%"/&gt;
+&lt;img src="./lecture5_files/figure-html/figure-09-16.jpg" width="60%"/&gt;
 &lt;/center&gt;
 
 - This model has implications on the distribution of income in the economy.
@@ -683,7 +720,7 @@ Governmensts can react to reduction in demand by
 ### Measuring inequality
 
 &lt;center&gt;
-&lt;img src="./lecture5_files/figure-html/figure-09-17-a.JPG" width="60%"/&gt;
+&lt;img src="./lecture5_files/figure-html/figure-09-17-a.jpg" width="60%"/&gt;
 &lt;/center&gt;
 
 - We can draw lorenz curve and calculate the gini coefficient.
@@ -695,7 +732,7 @@ Governmensts can react to reduction in demand by
 ### The effect on real wage increase on inquality
 
 &lt;center&gt;
-&lt;img src="./lecture5_files/figure-html/figure-09-17-b.JPG" width="60%"/&gt;
+&lt;img src="./lecture5_files/figure-html/figure-09-17-b.jpg" width="60%"/&gt;
 &lt;/center&gt;
 
 - Suppose real wages increase and the equilibrium moves to point B
@@ -711,7 +748,7 @@ Governmensts can react to reduction in demand by
 ### The effect on real wage increase on inquality
 
 &lt;center&gt;
-&lt;img src="./lecture5_files/figure-html/figure-09-17-c.JPG" width="60%"/&gt;
+&lt;img src="./lecture5_files/figure-html/figure-09-17-c.jpg" width="60%"/&gt;
 &lt;/center&gt;
 
 - Suppose real wages increase and the equilibrium moves to point B
@@ -724,35 +761,43 @@ Governmensts can react to reduction in demand by
 
 - Inequality decreases
 ---
-### Unions
+### Labor Unions
 
 
 .pull-left[
+ 
+**Labour union:** 
 
-Labour union = an organization consisting predominantly of employees. Its main activities include the negotiation of rates of pay and conditions of employment for its members. 
-
-
+ - an organization formed by employees
+ 
+ - negotiates pay and work conditions with employers
+ 
 ]
 
 .pull-right[
 
 &lt;br&gt;
 &lt;center&gt;
-&lt;img src="./lecture5_files/figure-html/figure-09-19.JPG" width="100%"/&gt;
+&lt;img src="./lecture5_files/figure-html/figure-09-19.jpg" width="100%"/&gt;
 &lt;/center&gt;
+
+Source: Jelle Visser, 2015 [ICTWSS Data base, Version 5.0](http://uva-aias.net/en/ictwss)
+
+Data from late 2010s.
 ]
 ---
-### Unions
+### The effect of wage bargaining on the economy
 
 
 .pull-left[
 
-Where workers are organized into trade unions, the wage is not set by the employer but instead is negotiated between union and firm. 
+- With strong unions, the wage is a result of negotiations between the firm and the union. 
 
-The bargained wage can be above the wage-setting curve
-    the wage-setting curve is about the employer’s threat of firing a worker
-    the union can threaten to “dismiss” the employer by going on strike
+- The bargained wage-setting curve can be above the wage-setting curve
 
+- No impact on real-wages
+
+- Employment is lower
 
 ]
 
@@ -760,20 +805,21 @@ The bargained wage can be above the wage-setting curve
 
 &lt;br&gt;
 &lt;center&gt;
-&lt;img src="./lecture5_files/figure-html/figure-09-21.JPG" width="100%"/&gt;
+&lt;img src="./lecture5_files/figure-html/figure-09-21.jpg" width="100%"/&gt;
 &lt;/center&gt;
 ]
 
 ---
-### Unions
-
+### The effect of wage bargaining on the economy, cont'd
 
 .pull-left[
-In equilibrium, wage is unchanged, but employment and firm’s profits are lower.
+- In equilibrium
+ 
+ - wage is unchanged
+ 
+ - employment and firm’s profits are lower.
 
-The model tells us that labour unions will increase unemployment rates.
-
-However, this is not clear in the data.
+- Data does not support the implications of the model
 
 
 ]
@@ -782,25 +828,36 @@ However, this is not clear in the data.
 
 &lt;br&gt;
 &lt;center&gt;
-&lt;img src="./lecture5_files/figure-html/figure-09-22.JPG" width="100%"/&gt;
+&lt;img src="./lecture5_files/figure-html/figure-09-22.jpg" width="100%"/&gt;
 &lt;/center&gt;
 ]
 
 ---
 ### Labor market policies
 
-Shifts in the price-setting curve:
-Education &amp; training: labour productivity ↑
-Wage subsidy: Production costs and prices ↓
+- Shifts in the price-setting curve:
 
-Shifts in the wage-setting curve:
-Lower unemployment benefit: reservation wage ↓
+ - Education &amp; training: labor productivity `\(\uparrow\)`
 
-Shifts in labour supply curve: 
-immigration policies: labour supply ↑
-childcare provision: female labour participation ↑
+ - Wage subsidy: Production costs and prices `\(\downarrow\)`
+
+- Shifts in the wage-setting curve:
+
+ - Lower unemployment benefit: reservation wage `\(\downarrow\)`
+
+- Shifts in labour supply curve: 
+
+ - immigration policies: labour supply `\(\uparrow\)`
+
+ - childcare provision: female labour participation `\(\uparrow\)`
 
 
+---
+### Next week
+
+- The credit market
+
+ - Read [Unit 10 - Banks, Money, and the Credit Market](https://core-econ.org/the-economy/book/text/10.html)
 ---
 
 
@@ -841,6 +898,7 @@ Then
 - Real wage is positively related to elasticity of substituion, but independent of employment
 ]
     </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
 <script>var slideshow = remark.create({
 "ratio": "16:9",
@@ -851,12 +909,59 @@ Then
 if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   window.dispatchEvent(new Event('resize'));
 });
-(function() {
-  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
   if (!r) return;
   s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
   d.head.appendChild(s);
-})();</script>
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
 
 <script>
 (function() {
@@ -870,8 +975,8 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
 </script>
 
 <script>
-(function() {
-  var i, text, code, codes = document.getElementsByTagName('code');
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
   for (i = 0; i < codes.length;) {
     code = codes[i];
     if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
@@ -885,7 +990,8 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     }
     i++;
   }
-})();
+};
+slideshow._releaseMath(document);
 </script>
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

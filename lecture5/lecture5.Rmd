@@ -76,8 +76,12 @@ $$ \text{Labor force participation rate} = \frac{\text{Labor force}}{\text{Popul
 </center>
 
 Data source: [The World Bank](https://data.worldbank.org/indicator/SL.TLF.CACT.ZS)
+---
+### Labor force participation rate in the US
 
-
+<center>
+<iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=lHIA&width=870&height=475" scrolling="no" frameborder="0"style="overflow:hidden; width:870px; height:525px;" allowTransparency="true" loading="lazy"></iframe>
+</center>
 ---
 ### Employment to working age population ratio (E/pop)
 
@@ -116,7 +120,7 @@ Data source: [The World Bank](https://data.worldbank.org/indicator/SL.UEM.TOTL.Z
 <img src="./lecture5_files/figure-html/lfpr_ur.svg" width="70%"/>
 </center>
 
-
+Data source: The World Bank
 ---
 ### Labor force participation rate and unemployment rate
 
@@ -134,7 +138,7 @@ Data source: [The World Bank](https://data.worldbank.org/indicator/SL.UEM.TOTL.Z
 
 At the firm level
 
-- Wage setting: firms set wage sufficiently high to motiveate employees to exert high effort   
+- Wage setting: firms set wage sufficiently high to motivate employees to exert high effort   
 
 - Price setting: firms set a markup above the marginal cost of production to maximize profits  
 
@@ -161,7 +165,7 @@ Number of employees = f(<span style="color:red">ouput</span>, production functio
 
 </center>
 
-- Notice that unemployment rate, input to the nominal wage fuction, depends on the number of employees fuction.
+- Notice that unemployment rate, input to the nominal wage function, depends on the number of employees function.
 
  - Hence macroeconomics: actions/decisions of all agents in the economy are interrelated.
 
@@ -274,7 +278,7 @@ To achieve this goal
 
  - Example, at real wage = $w_L$. the unemployment rate is equal to 12%.
 
-- As wages increase, the unemployment rate decreases.
+- As unemployment rate decreases, real wage increases.
 
 ]
 
@@ -327,6 +331,8 @@ An example wage-setting curve
 
 - Given production, HR hires workers
 
+
+Using these decisions, we will derive the price-setting curve.
 ### Assumptions 
 
 - Labor is the only factor of production
@@ -345,14 +351,13 @@ An example wage-setting curve
 ### Price Setting curve
 
 .pull-left[
-
-- Notice that Wage curve is the marginal cost curve
+- To maximize profits, the firm produces at point B.
 
 - Markup, $\mu\equiv\frac{p^\ast-MC}{p^\ast} = \frac{p^\ast-W/\lambda}{p^\ast}$, where $p^\ast$ is the firm price
 
  - Markup is a measure of market power
  
- - Remember that in a competitive market, $p^\ast=MC$, and hence firms don't have any market power
+ - Contrast this with a competitive market in which $p^\ast=MC$, and hence firms don't have any market power
  
 - Since all firms face the same demand curve, they all charge the same price, hence $p^\ast=P$, where $P$ is the price of a bundle of the goods in the economy.
 
@@ -377,7 +382,7 @@ $$ \mu  = \frac{P-W/\lambda}{P} $$
 
 ### Price setting
 
-- We assume that the markup, $\mu$ is determined by the market conditions such
+- We assume that the markup, $\mu$, is determined by the market conditions such
 
  - level of competetition in the market
  
@@ -386,6 +391,8 @@ $$ \mu  = \frac{P-W/\lambda}{P} $$
 - Then $\mu  = \frac{P-W/\lambda}{P} = 1 - \frac{W}{P} \frac{1}{\lambda} \Rightarrow \frac{W}{P}=\lambda - \lambda \mu$
 
 - Real wage, $\frac{W}{P} = \lambda - \lambda \mu$, is independent of the employment level
+
+- Real wage is positively related to labor productivity, and inversely related to market power.
 
 - To better understand this point, read 
 
@@ -434,9 +441,15 @@ name: back-normal
 ### Labor market equilibrium
 
 .pull-left[
-- Intersection of the wage-setting curve and price-setting curve gives the equilibrium.
+- Intersection of the wage-setting curve and price-setting curve gives the Nash equilibrium.
  
  - Point $X$ in the graph
+ - Firms pay the smallest wage to make workers exert sufficient effort
+ - Given the wage, employment is at the highest level
+ - Workers cannot ask more (firms will not pay more)
+ - Workers cannot put less effort (they will lose their jobs)
+ - Unemployed people cannot pursuade firms to hire them
+ - Firms cannot improve their profit by paying less wage or charging more.
  
 - In equilibrium, there is unemployment
 
@@ -452,23 +465,47 @@ name: back-normal
 ]
 
 ---
+### Last Lecture
 
-### Next lecture
+- We have learned the definitions of 
+ 
+ - labor force participation rate
+ 
+ - unemployment rate
+ 
+ - employment rate
+ 
+- We derived the wage-setting curve
+
+- We derived the price-setting curve
+
+- We characterized the labor market equilibrium using the above two
+
+---
+
+### This lecture
 
 <br>
 
-<br>
+We will put our model to use
+
+Using our model, we will
+
+- characterize distribution of output
+
+- learn effects of a reduction in aggreage demand on the economy
+ 
+ - demand-deficit unemployment
+ 
+ - automatic adjustment process of the economy
+ 
+ - goverment policies to counter the reduction in demand
+
+- learn the effects of labor unions on the economy
+
+- learn the effects of various labor market policies on the economy
 
 
-- Distribution of output
-
-- Involuntary unemployment
-
-- Demand-deficit unemployment
-
-- Labor market policies
-
-- Labor unions
 
 
 ---
@@ -478,10 +515,10 @@ name: back-normal
 - **Aggregate demand**: sum of demand by all agents in the economy, such as 
  - consumers,
  - firms,
- - goverments,
+ - governments,
  - agents from other countries
  
-- Suppose there is a reduction in the aggragete demand 
+- Suppose there is a reduction in the aggregate demand 
 
 
 ]
@@ -490,7 +527,7 @@ name: back-normal
 
 <br>
 <center>
-<img src="./lecture5_files/figure-html/figure-09-12-a.JPG" width="100%"/>
+<img src="./lecture5_files/figure-html/figure-09-12-a.jpg" width="100%"/>
 </center>
 ]
 
@@ -502,7 +539,7 @@ name: back-normal
 - **Aggregate demand**: sum of demand by all agents in the economy, such as 
  - consumers,
  - firms,
- - goverments,
+ - governments,
  - agents from other countries
  
 - Suppose there is a reduction in the aggragete demand 
@@ -516,7 +553,7 @@ name: back-normal
 
 <br>
 <center>
-<img src="./lecture5_files/figure-html/figure-09-12-b.JPG" width="100%"/>
+<img src="./lecture5_files/figure-html/figure-09-12-b.jpg" width="100%"/>
 </center>
 ]
 
@@ -528,7 +565,7 @@ name: back-normal
 - **Aggregate demand**: sum of demand by all agents in the economy, such as 
  - consumers,
  - firms,
- - goverments,
+ - governments,
  - agents from other countries
  
 - Suppose there is a reduction in the aggragete demand 
@@ -537,16 +574,16 @@ name: back-normal
 
  - Unemployment increases
 
-- **Cyclical unemployment:** the rise in unemployment as a result in reduction in aggregate demand
+- **Cyclical unemployment:** the rise in unemployment as a result of reduction in aggregate demand
 
- - Also known as demand-deficient unemployment
+ - Also known as **demand-deficient unemployment**
 ]
 
 .pull-right[
 
 <br>
 <center>
-<img src="./lecture5_files/figure-html/figure-09-12-c.JPG" width="100%"/>
+<img src="./lecture5_files/figure-html/figure-09-12-c.jpg" width="100%"/>
 </center>
 ]
 
@@ -556,7 +593,7 @@ name: back-normal
 
 
 .pull-left[
-- After the reduction in demand, the economy as at point $B$.
+- After the reduction in demand, the economy is at the point $B$.
  - Notice that, there is no change in the real wage
  - There is no change in the nominal wage yet
  - There is no change in the prices yet
@@ -566,7 +603,7 @@ name: back-normal
 
 - Isoprot curves become steeper
  - The slope of the isoprofit curve is $\frac{P-W/\lambda}{Q}$
- - As $W$ decreases, curve becomes steeper
+ - As $W$ decreases, isoprofit curve becomes steeper
 
 
 ]
@@ -576,7 +613,7 @@ name: back-normal
 <br>
 
 <center>
-<img src="./lecture5_files/figure-html/figure-09-13-a.JPG" width="100%"/>
+<img src="./lecture5_files/figure-html/figure-09-13-a.jpg" width="100%"/>
 </center>
 ]
 
@@ -588,8 +625,8 @@ name: back-normal
 - With the reduced wage, $B$ is no longer the profit maximizing point
 
 - The firm chooses point $X$ to maximize profit
- - Price goes down to $p^\ast$
- - Lower prices leads to higher quantity demanded, $p^{\ast \ast}$
+ - Price goes down to $p^{\ast \ast}$
+ - Lower prices leads to higher quantity demanded, $q^{\ast \ast}$
  
 - At the new equilibrium
  - real wage is still unchanged
@@ -603,7 +640,7 @@ name: back-normal
 <br>
 
 <center>
-<img src="./lecture5_files/figure-html/figure-09-13-b.JPG" width="100%"/>
+<img src="./lecture5_files/figure-html/figure-09-13-b.jpg" width="100%"/>
 </center>
 ]
 
@@ -615,7 +652,7 @@ name: back-normal
 .pull-left[
 - The adjustment process described in the previous slided may not work as smoothly.
  
- - Resiliance from the workers
+ - Resistance from the workers
  
  - If consumers anticipate price decline, they may postpone their purchases, which reduces demand.
 
@@ -626,7 +663,7 @@ name: back-normal
 
 <br>
 <center>
-<img src="./lecture5_files/figure-html/figure-09-14-a.JPG" width="100%"/>
+<img src="./lecture5_files/figure-html/figure-09-14-a.jpg" width="100%"/>
 </center>
 ]
 
@@ -656,7 +693,7 @@ Governmensts can react to reduction in demand by
 
 <br>
 <center>
-<img src="./lecture5_files/figure-html/figure-09-14-b.JPG" width="100%"/>
+<img src="./lecture5_files/figure-html/figure-09-14-b.jpg" width="100%"/>
 </center>
 ]
 
@@ -664,7 +701,7 @@ Governmensts can react to reduction in demand by
 ### Distribution of income
 
 <center>
-<img src="./lecture5_files/figure-html/figure-09-16.JPG" width="60%"/>
+<img src="./lecture5_files/figure-html/figure-09-16.jpg" width="60%"/>
 </center>
 
 - This model has implications on the distribution of income in the economy.
@@ -681,7 +718,7 @@ Governmensts can react to reduction in demand by
 ### Measuring inequality
 
 <center>
-<img src="./lecture5_files/figure-html/figure-09-17-a.JPG" width="60%"/>
+<img src="./lecture5_files/figure-html/figure-09-17-a.jpg" width="60%"/>
 </center>
 
 - We can draw lorenz curve and calculate the gini coefficient.
@@ -693,7 +730,7 @@ Governmensts can react to reduction in demand by
 ### The effect on real wage increase on inquality
 
 <center>
-<img src="./lecture5_files/figure-html/figure-09-17-b.JPG" width="60%"/>
+<img src="./lecture5_files/figure-html/figure-09-17-b.jpg" width="60%"/>
 </center>
 
 - Suppose real wages increase and the equilibrium moves to point B
@@ -709,7 +746,7 @@ Governmensts can react to reduction in demand by
 ### The effect on real wage increase on inquality
 
 <center>
-<img src="./lecture5_files/figure-html/figure-09-17-c.JPG" width="60%"/>
+<img src="./lecture5_files/figure-html/figure-09-17-c.jpg" width="60%"/>
 </center>
 
 - Suppose real wages increase and the equilibrium moves to point B
@@ -722,35 +759,43 @@ Governmensts can react to reduction in demand by
 
 - Inequality decreases
 ---
-### Unions
+### Labor Unions
 
 
 .pull-left[
+ 
+**Labour union:** 
 
-Labour union = an organization consisting predominantly of employees. Its main activities include the negotiation of rates of pay and conditions of employment for its members. 
-
-
+ - an organization formed by employees
+ 
+ - negotiates pay and work conditions with employers
+ 
 ]
 
 .pull-right[
 
 <br>
 <center>
-<img src="./lecture5_files/figure-html/figure-09-19.JPG" width="100%"/>
+<img src="./lecture5_files/figure-html/figure-09-19.jpg" width="100%"/>
 </center>
+
+Source: Jelle Visser, 2015 [ICTWSS Data base, Version 5.0](http://uva-aias.net/en/ictwss)
+
+Data from late 2010s.
 ]
 ---
-### Unions
+### The effect of wage bargaining on the economy
 
 
 .pull-left[
 
-Where workers are organized into trade unions, the wage is not set by the employer but instead is negotiated between union and firm. 
+- With strong unions, the wage is a result of negotiations between the firm and the union. 
 
-The bargained wage can be above the wage-setting curve
-    the wage-setting curve is about the employer’s threat of firing a worker
-    the union can threaten to “dismiss” the employer by going on strike
+- The bargained wage-setting curve can be above the wage-setting curve
 
+- No impact on real-wages
+
+- Employment is lower
 
 ]
 
@@ -758,20 +803,21 @@ The bargained wage can be above the wage-setting curve
 
 <br>
 <center>
-<img src="./lecture5_files/figure-html/figure-09-21.JPG" width="100%"/>
+<img src="./lecture5_files/figure-html/figure-09-21.jpg" width="100%"/>
 </center>
 ]
 
 ---
-### Unions
-
+### The effect of wage bargaining on the economy, cont'd
 
 .pull-left[
-In equilibrium, wage is unchanged, but employment and firm’s profits are lower.
+- In equilibrium
+ 
+ - wage is unchanged
+ 
+ - employment and firm’s profits are lower.
 
-The model tells us that labour unions will increase unemployment rates.
-
-However, this is not clear in the data.
+- Data does not support the implications of the model
 
 
 ]
@@ -780,25 +826,36 @@ However, this is not clear in the data.
 
 <br>
 <center>
-<img src="./lecture5_files/figure-html/figure-09-22.JPG" width="100%"/>
+<img src="./lecture5_files/figure-html/figure-09-22.jpg" width="100%"/>
 </center>
 ]
 
 ---
 ### Labor market policies
 
-Shifts in the price-setting curve:
-Education & training: labour productivity ↑
-Wage subsidy: Production costs and prices ↓
+- Shifts in the price-setting curve:
 
-Shifts in the wage-setting curve:
-Lower unemployment benefit: reservation wage ↓
+ - Education & training: labor productivity $\uparrow$
 
-Shifts in labour supply curve: 
-immigration policies: labour supply ↑
-childcare provision: female labour participation ↑
+ - Wage subsidy: Production costs and prices $\downarrow$
+
+- Shifts in the wage-setting curve:
+
+ - Lower unemployment benefit: reservation wage $\downarrow$
+
+- Shifts in labour supply curve: 
+
+ - immigration policies: labour supply $\uparrow$
+
+ - childcare provision: female labour participation $\uparrow$
 
 
+---
+### Next week
+
+- The credit market
+
+ - Read [Unit 10 - Banks, Money, and the Credit Market](https://core-econ.org/the-economy/book/text/10.html)
 ---
 
 
